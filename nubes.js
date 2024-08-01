@@ -15,7 +15,7 @@ class CreaNubes{
         this.tiempoAnimacion=tiempoAnimacion
     }
     generarNube(){
-        document.querySelector('.header .nubes').innerHTML+='<img id="'+this.nombre+'"src="/totoro/img/nube'+this.imagen+'.png">'
+        document.querySelector('.header .nubes').innerHTML+='<img id="'+this.nombre+'"src="./totoro/img/nube'+this.imagen+'.png">'
         document.getElementById(this.nombre).style.position= 'absolute'
         document.getElementById(this.nombre).style.width= '16vw'
         document.getElementById(this.nombre).style.left= this.posx + 'vw'
