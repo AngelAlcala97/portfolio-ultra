@@ -89,11 +89,15 @@
       content: '';
       width: 0;
       height: 0;
+      border: 0;
+      background: transparent;
     } 
     &::before{
       content: '';
       width: 0;
       height:0;
+      border: 0;
+      background: transparent;
     } }
   .navBar div:first-child:hover{
     background-color: var(--primary);
@@ -103,11 +107,15 @@
       content: '';
       width: 0;
       height:0;
+      border: 0;
+      background: transparent;
     } 
     &::before{
       content: '';
       width: 0;
       height:0;
+      border: 0;
+      background: transparent;
     }
   }
   .navBar div:last-child:hover{
