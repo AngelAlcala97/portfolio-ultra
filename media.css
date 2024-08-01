@@ -6,37 +6,33 @@
     background-repeat: repeat-x;
     background-size: cover;
   }
-  
   .nubes{
     overflow: hidden;
     height: 100%;
     width: 100%;
     position: absolute;
   }
-  .nubes img{
-    width: 5%;
-  }
   .NubeMov{
     height: 200vh;
     width: 100%;
     position: absolute;
     top: 0;
-    background: url(img/bg-pattern-sky-clouds-xs.png);
+     background: url(img/bg-pattern-sky-clouds-xs.png);
     background-repeat: repeat-x;
     background-size: cover;
     animation: animation 100s linear infinite;
   }
 
-  @keyframes animation {
-    100%{
-     background-position:0px -3000px;
-   }
- }
 
+@keyframes animation {
+   100%{
+    background-position:0px -3000px;
+  }
+}
   .estrellas{
     transition: all 2s;
   }
- 
+
   .header{
     position: relative;
     display: flex;
@@ -45,7 +41,7 @@
     height: 100vh;
     /* background: url(img/fondo1.png);
     background-repeat: repeat-x;
-    background-size: cover; */
+    background-size: contain; */
   }
   .logo{
     width: 5%;
@@ -59,115 +55,156 @@
   .navBar{
     position: fixed;
     z-index: 9999;
-    height: 6vh;
-    top: 90.5%;
-    left: 8%;
-    width: 70%;
+    height: 70px;
+    top: 0%;
+    width: 100%;
+    background: var(--primary);
     display: flex;
+    gap: 1vw;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    border-radius: 3vw;
-    gap: 0.1vw;
-    background: transparent;
-    border: 0;
-
-
+    filter: drop-shadow(.1vh .1vh .8vh var(--primary));
   }
   .navBar div{
-    height: 100%;
-    width: 16%;
-    background-color: var(--primary);
+    height: 70%;
+    width: 13%;
+    background: #0C3B62;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-items: center;
     box-sizing: border-box;
     cursor: pointer;
-    transition: all 1s;
+    transition: .5s;
     position: relative;
-    border: .1vh solid var(--links);
+    border: 0;
+    border-left: 0;
+    
   }
   .navBar div:first-child{
-    border-top-left-radius: 0vw;
-    border-bottom-left-radius: 0vw;
-    border: 0;
-    background: transparent;
-    top: 2%;
-    left: 14%;
-    width: 14vw;
-    height: 8vh;
-    position: fixed;
-  }
-  .navBar div:last-child{
-    border-top-right-radius: 5vw;
-    border-bottom-right-radius: 5vw;
-  }
+    border-left: 0;
+    background: var(--primary);
+    &::after{
+      content: '';
+      width: 0;
+      height: 0;
+    } 
+    &::before{
+      content: '';
+      width: 0;
+      height:0;
+    } }
   .navBar div:first-child:hover{
     background-color: var(--primary);
   }
-  .navBar div:nth-child(2){
-    border-top-left-radius: 5vw;
-    border-bottom-left-radius: 5vw;
+  .navBar div:last-child{
+    &::after{
+      content: '';
+      width: 0;
+      height:0;
+    } 
+    &::before{
+      content: '';
+      width: 0;
+      height:0;
+    }
   }
   .navBar div:last-child:hover{
-    background: rgb(61,211,238);
+    background-color: var(--primary);
+  }
+  .navBar div:nth-child(2):hover,.navBar div:nth-child(3):hover,.navBar div:nth-child(4):hover,.navBar div:nth-child(5):hover,.navBar div:nth-child(6):hover{
+    position: relative;
+    &::before{
+      content: '';
+      width: 100%;
+      z-index: 1;
+      height: 100%;
+      box-sizing: border-box;
+      border: .2vh solid var(--primary);
+      border-radius: 0.4vh;
+      filter: drop-shadow(.1vh .1vh .5vh var(--links));
+      top: 0;
+      left: 0;
+      position: absolute;
+      background: rgb(61,211,238);
     background: linear-gradient(180deg, rgba(61,211,238,1) 75%, rgba(63,217,192,1) 100%);
     }
-  .navBar div:nth-child(2):hover,.navBar div:nth-child(3):hover,.navBar div:nth-child(4):hover,.navBar div:nth-child(5):hover,.navBar div:nth-child(6):hover{
-    background: rgb(61,211,238);
-    background: linear-gradient(180deg, rgba(61,211,238,1) 75%, rgba(63,217,192,1) 100%);
   }
 
   .navBar div svg{
     color: var(--white);
     cursor: pointer;
-    height: 3.5vh;
+    height: 4vh;
+    z-index: 3;
+    position: relative;
   }
   .navBar img{
-    width: 20vh;
-    height: auto;
+    width: 90%;
   }
   #estandarte{
-    position: fixed;
-    width: 40vw;
-    top: -5%;
-    left: 68%;
+    position: absolute;
+    width: 200%;
+    top: -28%;
+    z-index: 5;
+    transition: 1s;
   }
+  /* #estandarte:hover{
+      opacity: 0;
+  } */
+  #linkedin{
+    transition: 1s;
+  }
+  .opacidad{
+    opacity: 1;
+  }
+  .noOpacidad{
+    opacity: 0;
+  }
+  
   .Centro{
     position: relative;
-    z-index: 999;
-    top: 0%;
-    width: 100%;
+    z-index: 0;
+    top: 2%;
+    width: 30%;
+    filter: drop-shadow(.1vh .1vh .2vh var(--primary));
   }
 
   .web{
     height: 100vh;
+    width: 100%;
     position: relative;
-    /* background: url(img/fondo2.jpg);
-    background-repeat: repeat-x;
-    background-size: cover; */
+    background: url(img/papiro.jpg);
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap-reverse;
     gap: 5%;
   }
   .info{
-    height: 60%;
-    width: 40%;
+    height: 40%;
+    width: 90%;
     box-sizing: border-box;
-    /* border: 1px solid wheat; */
+    /* border: 1px solid black; */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
+    gap: 3.5vh;
+    
+  }
+  .info:first-child{
+    border-radius: 3vh;
+    box-shadow: 10px 10px 20px #D2C6B7, -10px -10px 20px #fff;
   }
   .info img{
-    width: 26vh;
-    position: relative;
-    right: 1%;
+    width: 50%;
     /* height: 50%; */
+    /* mask-image: linear-gradient(black 80%,transparent); */
     mask-image: linear-gradient(black 80%,transparent);
+
   }
 
   @keyframes nublado{
