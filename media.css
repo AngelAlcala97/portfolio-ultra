@@ -56,6 +56,7 @@
     position: fixed;
     z-index: 9999;
     height: 70px;
+    /* top: 91.5%; */
     top: 0%;
     width: 100%;
     background: var(--primary);
@@ -174,7 +175,7 @@
     position: relative;
     z-index: 0;
     top: 2%;
-    width: 60%;
+    width: 80%;
     filter: drop-shadow(.1vh .1vh .2vh var(--primary));
   }
 
