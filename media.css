@@ -1,0 +1,204 @@
+@media (max-width: 500px) {
+  html,body{
+    margin: 0;
+    background: url(img/fondo1.png);
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-size: cover;
+  }
+  
+  .nubes{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  .nubes img{
+    width: 5%;
+  }
+  .NubeMov{
+    height: 200vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: url(img/bg-pattern-sky-clouds-xs.png);
+    background-repeat: repeat-x;
+    background-size: cover;
+    animation: animation 100s linear infinite;
+  }
+
+  @keyframes animation {
+    100%{
+     background-position:0px -3000px;
+   }
+ }
+
+  .estrellas{
+    transition: all 2s;
+  }
+ 
+  .header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: url(img/fondo1.png);
+    background-repeat: repeat-x;
+    background-size: cover; */
+  }
+  .logo{
+    width: 5%;
+    filter: drop-shadow(.1vh .1vh .01vh #fdfdfd);
+    transition: all 0.2s;
+  }
+  .logo:hover{
+    filter: drop-shadow(.1vh .1vh .50vh #361518);
+  }
+  
+  .navBar{
+    position: fixed;
+    z-index: 9999;
+    height: 6vh;
+    top: 91%;
+    left: 8%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 3vw;
+    gap: 0.1vw;
+    background: transparent;
+    border: 0;
+
+
+  }
+  .navBar div{
+    height: 100%;
+    width: 16%;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 1s;
+    position: relative;
+    border: .1vh solid var(--links);
+  }
+  .navBar div:first-child{
+    border-top-left-radius: 0vw;
+    border-bottom-left-radius: 0vw;
+    border: 0;
+    background: transparent;
+    top: 2%;
+    left: 14%;
+    width: 14vw;
+    height: 8vh;
+    position: fixed;
+  }
+  .navBar div:last-child{
+    border-top-right-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+  }
+  .navBar div:first-child:hover{
+    background-color: var(--primary);
+  }
+  .navBar div:nth-child(2){
+    border-top-left-radius: 5vw;
+    border-bottom-left-radius: 5vw;
+  }
+  .navBar div:last-child:hover{
+    background: rgb(61,211,238);
+    background: linear-gradient(180deg, rgba(61,211,238,1) 75%, rgba(63,217,192,1) 100%);
+    }
+  .navBar div:nth-child(2):hover,.navBar div:nth-child(3):hover,.navBar div:nth-child(4):hover,.navBar div:nth-child(5):hover,.navBar div:nth-child(6):hover{
+    background: rgb(61,211,238);
+    background: linear-gradient(180deg, rgba(61,211,238,1) 75%, rgba(63,217,192,1) 100%);
+  }
+
+  .navBar div svg{
+    color: var(--white);
+    cursor: pointer;
+    height: 3.5vh;
+  }
+  .navBar img{
+    width: 20vh;
+  }
+  #estandarte{
+    position: fixed;
+    width: 40vw;
+    top: -5%;
+    left: 68%;
+  }
+  .Centro{
+    position: relative;
+    z-index: 999;
+    top: 0%;
+    width: 100%;
+  }
+
+  .web{
+    height: 100vh;
+    position: relative;
+    /* background: url(img/fondo2.jpg);
+    background-repeat: repeat-x;
+    background-size: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+  }
+  .info{
+    height: 60%;
+    width: 40%;
+    box-sizing: border-box;
+    /* border: 1px solid wheat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .info img{
+    width: 26vh;
+    position: relative;
+    right: 1%;
+    /* height: 50%; */
+    mask-image: linear-gradient(black 80%,transparent);
+  }
+
+  @keyframes nublado{
+    from {
+      transform: translateX(-5vw);}
+    to {
+      transform: translateX(110vw);
+    };
+}
+
+@keyframes estrellado {
+  /* 0% {opacity: 0;} */
+  0% {scale: 1;}
+
+  /* 50% {opacity: 1;} */
+  /* 100% {opacity: 1;} */
+  100% {scale: 1.5;}
+
+}
+ 
+footer{
+  position: relative;
+}
+footer img{
+  /* border: 2px solid var(--white); */
+  cursor: pointer;
+  z-index: 9999999;
+  border-radius: 100%;
+  background-color: var(--white);
+  width: 6vh;
+  position: fixed;
+  right: 3vw;
+  bottom: 3vh;
+}
+}
