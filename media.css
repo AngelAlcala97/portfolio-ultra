@@ -126,6 +126,7 @@
   }
   .navBar img{
     width: 20vh;
+    height: auto;
   }
   #estandarte{
     position: fixed;
