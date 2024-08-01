@@ -17,7 +17,7 @@ class CreaEstrellas{
         this.tiempoAnimacion=tiempoAnimacion
     }
     generarEstrella(){
-        document.querySelector('.web .estrellas').innerHTML+='<img id="'+this.nombre+'"src="./totoro/img/estrellas'+this.imagen+'.png">'
+        document.querySelector('.web .estrellas').innerHTML+='<img id="'+this.nombre+'"src="totoro/img/estrellas'+this.imagen+'.png">'
         document.getElementById(this.nombre).style.position= 'absolute'
         document.getElementById(this.nombre).style.width= '1vw'
         document.getElementById(this.nombre).style.left= this.posx + 'vw'
