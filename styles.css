@@ -66,57 +66,113 @@
   .navBar{
     position: fixed;
     z-index: 9999;
-    height: 10vh;
+    height: 70px;
     top: 5%;
     width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    border-radius: 3vw;
-    gap: 0.1vw;
-    background: var(--links);
-    border: .1vh solid var(--links);
-
-
+    filter: drop-shadow(.1vh .1vh .8vh var(--primary));
   }
   .navBar div{
     height: 100%;
     width: 15%;
-    background-color: var(--primary);
+    background: var(--primary);
     display: flex;
     justify-content: center;
     align-items: center;
     justify-items: center;
     box-sizing: border-box;
     cursor: pointer;
-    transition: all 1s;
+    transition: .5s;
     position: relative;
-    /* border: .1vh solid var(--links); */
+    border: .1vh solid var(--links);
+    border-left: 0;
+    
   }
   .navBar div:first-child{
-    border-top-left-radius: 3vw;
-    border-bottom-left-radius: 3vw;
-  }
-  .navBar div:last-child{
-    border-top-right-radius: 3vw;
-    border-bottom-right-radius: 3vw;
-  }
+    border-left: .1vh solid var(--links);
+    &::after{
+      content: '';
+      width: 5px;
+      height: 5px;
+      background: var(--primary);
+      position: absolute;
+      top: -1px;
+      left: -1px;
+      border-right: .1vh solid var(--links);
+      border-bottom: .1vh solid var(--links);
+    } 
+    &::before{
+      content: '';
+      width: 5px;
+      height: 5px;
+      background: var(--primary);
+      position: absolute;
+      bottom: -1px;
+      left: -1px;
+      border-right: .1vh solid var(--links);
+      border-top: .1vh solid var(--links);
+
+    } }
   .navBar div:first-child:hover{
     background-color: var(--primary);
+  }
+  .navBar div:last-child{
+    &::after{
+      content: '';
+      width: 5px;
+      height: 5px;
+      background: var(--primary);
+      position: absolute;
+      top: -1px;
+      right: -1px;
+      border-left: .1vh solid var(--links);
+      border-bottom: .1vh solid var(--links);
+
+    } 
+    &::before{
+      content: '';
+      width: 5px;
+      height: 5px;
+      background: var(--primary);
+      position: absolute;
+      bottom: -1px;
+      right: -1px;
+      border-left: .1vh solid var(--links);
+      border-top: .1vh solid var(--links);
+
+    }
   }
   .navBar div:last-child:hover{
     background-color: var(--primary);
   }
   .navBar div:nth-child(2):hover,.navBar div:nth-child(3):hover,.navBar div:nth-child(4):hover,.navBar div:nth-child(5):hover,.navBar div:nth-child(6):hover{
-    background: rgb(61,211,238);
+    position: relative;
+    &::before{
+      content: '';
+      width: 100%;
+      z-index: 1;
+      height: 100%;
+      box-sizing: border-box;
+      border: .2vh solid var(--primary);
+      border-radius: 0.4vh;
+      filter: drop-shadow(.1vh .1vh .5vh var(--links));
+      top: 0;
+      left: 0;
+      position: absolute;
+      background: rgb(61,211,238);
     background: linear-gradient(180deg, rgba(61,211,238,1) 75%, rgba(63,217,192,1) 100%);
+    }
   }
 
   .navBar div svg{
     color: var(--white);
     cursor: pointer;
     height: 4vh;
+    z-index: 3;
+    position: relative;
   }
   .navBar img{
     width: 90%;
@@ -125,38 +181,64 @@
     position: absolute;
     width: 100%;
     top: -28%;
-    left: -5%;
+    z-index: 5;
+    transition: 1s;
   }
+  /* #estandarte:hover{
+      opacity: 0;
+  } */
+  #linkedin{
+    transition: 1s;
+  }
+  .opacidad{
+    opacity: 1;
+  }
+  .noOpacidad{
+    opacity: 0;
+  }
+  
   .Centro{
     position: relative;
-    z-index: 999;
-    top: 10%;
+    z-index: 0;
+    top: 2%;
+    width: 30%;
+    filter: drop-shadow(.1vh .1vh .2vh var(--primary));
   }
 
   .web{
-    height: 100vh;
+    height: 80vh;
+    width: 100%;
     position: relative;
-    /* background: url(img/fondo2.jpg); */
-    /* background-repeat: repeat-x;
-    background-size: contain; */
+    background: url(img/papiro.jpg);
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5%;
   }
   .info{
-    height: 60%;
-    width: 40%;
+    height: 80%;
+    width: 44%;
     box-sizing: border-box;
-    /* border: 1px solid wheat; */
+    /* border: 1px solid black; */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    gap: 3.5vh;
+    
+  }
+  .info:first-child{
+    border-radius: 3vh;
+    box-shadow: 10px 10px 20px #D2C6B7, -10px -10px 20px #fff;
   }
   .info img{
-    width: 40%;
+    width: 50%;
     /* height: 50%; */
+    /* mask-image: linear-gradient(black 80%,transparent); */
     mask-image: linear-gradient(black 80%,transparent);
+
   }
 
   @keyframes nublado{

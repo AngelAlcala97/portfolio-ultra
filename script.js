@@ -9,8 +9,20 @@ function musica(){
     } else {
         audio.play()
     }
-
-  
-
-
 }
+
+var estandarte= document.querySelector('#estandarte')
+var linkedIn= document.querySelector('#linkedin')
+
+function subirEstandarte(){
+    linkedIn.classList.remove('noOpacidad');    
+    estandarte.classList.add('noOpacidad');   
+}
+
+function bajarEstandarte(){
+    linkedIn.classList.add('noOpacidad');    
+    estandarte.classList.remove('noOpacidad');  
+}
+
+ 
+
