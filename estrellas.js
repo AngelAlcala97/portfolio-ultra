@@ -42,12 +42,12 @@ function Estrellado(){
     }
 
 function BorraEstrella(){
-    document.querySelector('.web .estrellas').style='opacity:0'
+    document.querySelector('.header .estrellas').style='opacity:0'
     
     pausar2= setTimeout(() => {
         clearTimeout(pausar1)
-        document.querySelector('.web .estrellas').style='opacity:1'
-        document.querySelector('.web .estrellas').innerHTML='';
+        document.querySelector('.header .estrellas').style='opacity:1'
+        document.querySelector('.header .estrellas').innerHTML='';
         contadorEstrellas=0
         estrellas=[]
 

@@ -26,7 +26,7 @@ class CreaNubes{
 }
 
 function Nublado(){
-    if (contadorNubes<=10){
+    if (contadorNubes<=20){
     // setTimeout(() => {
         nubes.push(new CreaNubes("nube"+contadorNubes,randomNumber(2,3), randomNumber(1,80),randomNumber(-20,100),randomNumber(0,9),randomNumber(60,150)))
         nubes[contadorNubes].generarNube();
