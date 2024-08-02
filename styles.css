@@ -23,6 +23,12 @@
     width: 100%;
     position: absolute;
   }
+  .cometas{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
   .NubeMov{
     height: 200vh;
     width: 100%;
@@ -274,6 +280,14 @@
   /* 50% {opacity: 1;} */
   /* 100% {opacity: 1;} */
   100% {scale: 1.5;}
+
+}
+@keyframes cometado {
+  from {
+    transform: translateY(0vw);}
+  to {
+    transform: translateY(200vh) translateX(-100vw);
+  };
 
 }
  

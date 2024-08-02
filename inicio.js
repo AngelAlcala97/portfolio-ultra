@@ -4,7 +4,8 @@ var inicio = {
 	iniciar() {
         // buclePrincipal.iterar()
         Nublado()  
-        Estrellado()  
+        Estrellado()
+        Cometado()  
 	},
    start() {
         document.getElementById('start').innerHTML=`
@@ -23,6 +24,7 @@ var inicio = {
         </main>`
         Nublado()
         Estrellado()  
+        Cometado()
         var audio= document.getElementById('audio')
         audio.play()
  
