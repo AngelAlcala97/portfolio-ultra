@@ -51,6 +51,35 @@
   .logo:hover{
     filter: drop-shadow(.1vh .1vh .50vh #361518);
   }
+  .logoEstandarteMovil{
+    display: flex;
+    position: absolute;
+    border: 1px solid wheat;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .logoEstandarteMovil img{
+    width: 35%;
+    position: absolute;
+    filter: drop-shadow(.1vh .1vh .50vh var(--primary));
+    /* height: auto; */
+  }
+  .logoEstandarteMovil img:first-child{
+    position: fixed;
+    /* height: auto; */
+    z-index: 9999;
+    top: 0px;
+    left: 5px;
+  }
+  .logoEstandarteMovil img:last-child{
+    position: fixed;
+    /* height: auto; */
+    z-index: 9999;
+    top: -12px;
+    right: -10px;
+  }
   
   .navBar{
     position: fixed;
@@ -70,7 +99,7 @@
   }
   .navBar div{
     height: 70%;
-    width: 15%;
+    width: 18%;
     background: #0C3B62;
     display: flex;
     justify-content: center;
@@ -87,6 +116,7 @@
   .navBar div:first-child{
     border-left: 0;
     position: fixed;
+    display: none;
     width: 40%;
     top: -30%;
     left: 2%;
@@ -109,6 +139,7 @@
     background-color: transparent;
   }
   .navBar div:last-child{
+    display: none;
     &::after{
       content: '';
       width: 0;
@@ -252,7 +283,7 @@ footer img{
   background-color: var(--white);
   width: 5vh;
   position: fixed;
-  right: 5.5vw;
-  bottom: 2.65vh;
+  right: 7.5vw;
+  bottom: 11vh;
 }
 }
