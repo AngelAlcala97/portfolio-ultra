@@ -160,7 +160,7 @@
     position: fixed;
     width: 40%;
     top: -2%;
-    right: 0%;
+    right: -2%;
     z-index: 5;
     transition: 1s;
   }
