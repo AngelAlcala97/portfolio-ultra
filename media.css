@@ -88,7 +88,7 @@
     border-left: 0;
     position: fixed;
     width: 40%;
-    top: -40%;
+    top: -10%;
     left: 2%;
     background: transparent;
     &::after{
@@ -160,7 +160,7 @@
     position: fixed;
     width: 40%;
     top: -2%;
-    right: -8%;
+    right: -15%;
     z-index: 5;
     transition: 1s;
   }
