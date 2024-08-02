@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Gusto';
+    src: url('Gusto-BoldItalic.eot');
+    src: local('Gusto Bold Italic'), local('Gusto-BoldItalic'),
+        url('Gusto-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Gusto-BoldItalic.woff2') format('woff2'),
+        url('Gusto-BoldItalic.woff') format('woff'),
+        url('Gusto-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gusto';
+    src: url('Gusto-Bold.eot');
+    src: local('Gusto Bold'), local('Gusto-Bold'),
+        url('Gusto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Gusto-Bold.woff2') format('woff2'),
+        url('Gusto-Bold.woff') format('woff'),
+        url('Gusto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gusto';
+    src: url('Gusto.eot');
+    src: local('Gusto'),
+        url('Gusto.eot?#iefix') format('embedded-opentype'),
+        url('Gusto.woff2') format('woff2'),
+        url('Gusto.woff') format('woff'),
+        url('Gusto.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gusto';
+    src: url('Gusto-Italic.eot');
+    src: local('Gusto Italic'), local('Gusto-Italic'),
+        url('Gusto-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Gusto-Italic.woff2') format('woff2'),
+        url('Gusto-Italic.woff') format('woff'),
+        url('Gusto-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+

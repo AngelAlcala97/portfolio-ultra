@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'Digimon';
-    src: url('fonts/pixel-digivolve-italic.otf') format('truetype');
-  }
+
 
   :root {
     --primary: #082136;
@@ -16,6 +13,7 @@
     background-attachment: fixed;
     background-repeat: repeat-x;
     background-size: contain;
+    font-family: 'Gusto';
   }
   .nubes{
     overflow: hidden;
