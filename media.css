@@ -54,7 +54,7 @@
   .logoEstandarteMovil{
     display: flex;
     position: absolute;
-    border: 1px solid wheat;
+    /* border: 1px solid wheat; */
     top: 0;
     left: 0;
     width: 100%;
