@@ -282,10 +282,10 @@
   #click{
     position: absolute;
     top: 75%;
-    left: 42%;
+    left: 52%;
     width: 20%;
-    filter: drop-shadow(.1vh .1vh .2vh var(--primary));
-    animation: aparicion1 1s alternate infinite;
+    filter: drop-shadow(.1vh .1vh .1vh var(--primary));
+    animation: aparicion1 1.5s alternate infinite;
   }
   @keyframes aparicion1 {
     0% {opacity: 0;}
