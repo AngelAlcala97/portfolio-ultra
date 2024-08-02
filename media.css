@@ -57,7 +57,8 @@
     z-index: 9999;
     height: 70px;
     /* top: 91.5%; */
-    top: 0%;
+    /* top: 0%; */
+    bottom: 0;
     width: 100%;
     background: var(--primary);
     display: flex;
@@ -69,7 +70,7 @@
   }
   .navBar div{
     height: 70%;
-    width: 13%;
+    width: 15%;
     background: #0C3B62;
     display: flex;
     justify-content: center;
@@ -85,7 +86,11 @@
   }
   .navBar div:first-child{
     border-left: 0;
-    background: var(--primary);
+    position: fixed;
+    width: 40%;
+    top: -820%;
+    left: 2%;
+    background: transparent;
     &::after{
       content: '';
       width: 0;
@@ -152,9 +157,10 @@
     width: 90%;
   }
   #estandarte{
-    position: absolute;
-    width: 200%;
-    top: -28%;
+    position: fixed;
+    width: 40%;
+    top: -880%;
+    right: -6%;
     z-index: 5;
     transition: 1s;
   }
@@ -243,9 +249,9 @@ footer img{
   z-index: 9999999;
   border-radius: 100%;
   background-color: var(--white);
-  width: 6vh;
+  width: 5vh;
   position: fixed;
-  right: 3vw;
-  bottom: 3vh;
+  right: 5.5vw;
+  bottom: 2.5vh;
 }
 }
