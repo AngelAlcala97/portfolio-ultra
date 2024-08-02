@@ -277,6 +277,19 @@
     width: 40%;
     z-index: 0;
   }
+  #tituloPixel{
+    position: absolute;
+    top: 0;
+    left: 5%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--primary);
+    &::after{
+      content: '>';
+      left: 2%;
+      position: relative;
+    }
+  }
 
   @keyframes nublado{
     from {
