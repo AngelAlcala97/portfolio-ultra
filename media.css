@@ -88,7 +88,7 @@
     border-left: 0;
     position: fixed;
     width: 40%;
-    top: 0%;
+    top: -40%;
     left: 2%;
     background: transparent;
     &::after{
@@ -106,7 +106,7 @@
       background: transparent;
     } }
   .navBar div:first-child:hover{
-    background-color: var(--primary);
+    background-color: transparent;
   }
   .navBar div:last-child{
     &::after{
@@ -159,8 +159,8 @@
   #estandarte{
     position: fixed;
     width: 40%;
-    top: 0%;
-    right: -6%;
+    top: -2%;
+    right: -8%;
     z-index: 5;
     transition: 1s;
   }
