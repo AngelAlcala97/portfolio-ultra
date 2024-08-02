@@ -184,7 +184,7 @@
   #estandarte{
     position: absolute;
     width: 100%;
-    top: -28%;
+    top: -56%;
     z-index: 5;
     transition: 1s;
   }

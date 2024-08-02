@@ -77,8 +77,16 @@
     position: fixed;
     /* height: auto; */
     z-index: 9999;
-    top: -12px;
-    right: -10px;
+    top: -26px;
+    right: -20px;
+    transition: 2s;
+  }
+  .logoEstandarteMovil img:last-child:hover{
+    position: fixed;
+    /* height: auto; */
+    z-index: 9999;
+    top: -150px;
+    right: -20px;
   }
   
   .navBar{
@@ -195,6 +203,7 @@
     z-index: 5;
     transition: 1s;
   }
+
   /* #estandarte:hover{
       opacity: 0;
   } */
@@ -206,7 +215,6 @@
   }
   .noOpacidad{
     opacity: 0;
-    transform: translateY(-10vh);
   }
   
   .Centro{
