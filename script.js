@@ -13,7 +13,7 @@ function musica(){
 
 var estandarte= document.querySelector('#estandarte')
 var linkedIn= document.querySelector('#linkedin')
-var Movil= document.querySelector('.estandarte')
+var estandarteMovil= document.querySelector('.estandarte')
 
 
 function subirEstandarte(){
@@ -27,11 +27,11 @@ function bajarEstandarte(){
 }
 
 function subirEstandarteMovil(){
-    estandarte.classList.add('noOpacidad');   
+    estandarteMovil.classList.add('noOpacidad');   
 }
 
 function bajarEstandarteMovil(){
-    estandarte.classList.remove('noOpacidad');  
+    estandarteMovil.classList.remove('noOpacidad');  
 }
 
  
