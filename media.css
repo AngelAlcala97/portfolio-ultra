@@ -277,18 +277,13 @@
     mask-image: linear-gradient(black 80%,transparent);
 
   }
-  #tituloPixel{
+  #click{
     position: absolute;
-    top: -15%;
-    left: 10%;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: var(--primary);
-    &::after{
-      content: '>';
-      left: 2%;
-      position: relative;
-    }
+    top: 75%;
+    left: 42%;
+    width: 20%;
+    filter: drop-shadow(.1vh .1vh .2vh var(--primary));
+    animation: aparicion1 1s alternate infinite;
   }
 
   @keyframes nublado{

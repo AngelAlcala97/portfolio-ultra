@@ -258,7 +258,7 @@
     box-shadow: 10px 10px 20px #D2C6B7, -10px -10px 20px #fff;
   }
   .info img{
-    width: 50%;
+    width: 40%;
     /* height: 50%; */
     /* mask-image: linear-gradient(black 80%,transparent); */
     mask-image: linear-gradient(black 80%,transparent);
@@ -269,27 +269,29 @@
   }
   #yo{
     transition: 2s all;
+    position: absolute;
+    top: -15%;
   }
   #pixelyo{
     transition: 2s all;
     position: absolute;
-    top: 0%;
+    top: -10%;
     width: 40%;
     z-index: 0;
   }
-  #tituloPixel{
+  #click{
     position: absolute;
-    top: 0;
-    left: 5%;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: var(--primary);
-    &::after{
-      content: '>';
-      left: 2%;
-      position: relative;
-    }
+    top: 75%;
+    left: 42%;
+    width: 20%;
+    filter: drop-shadow(.1vh .1vh .2vh var(--primary));
+    animation: aparicion1 1s alternate infinite;
   }
+  @keyframes aparicion1 {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
 
   @keyframes nublado{
     from {
