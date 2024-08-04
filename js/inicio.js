@@ -6,7 +6,6 @@ var inicio = {
         Nublado()  
         Estrellado()
         Cometado()  
-        // mostrarProyectos()
 	}, 
 };
 

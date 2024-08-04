@@ -1,19 +1,136 @@
 {
-"projects": [
-    {
-      "name": "Enlaces",
-      "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
-      "imageURL": "img/projects/01.jpg"
-    },
-    {
-      "name": "Madame Uppercut",
-      "age": 39,
-      "secretIdentity": "Jane Wilson"
-    },
-    {
-      "name": "Eternal Flame",
-      "age": 1000000,
-      "secretIdentity": "Unknown"
-    }
-]
+    "projects": [
+        {
+            "name": "Animaciones CSS",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/22.jpg",
+            "enlace": "projects/22Animacion-CSS/index.html"
+        },
+        {
+            "name": "Desactivar Escudos",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/21.jpg",
+            "enlace": "projects/21Desactivar-escudos/inicio.html"
+        },
+        {
+            "name": "Weekend Website",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/20.jpg",
+            "enlace": "projects/20WEEKEND-BEACH/index.html"
+        },
+        {
+            "name": "Animaciones JS",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/19.jpg",
+            "enlace": "projects/19Animaciones-JS/13-animaciones.html"
+        },
+        {
+            "name": "Investigación CSS",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/18.jpg",
+            "enlace": "projects/18Investigación/index.html"
+        },
+        {
+            "name": "Alumnos con Vector",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/17.jpg",
+            "enlace": "projects/17Alumnos-con-vector/index.html"
+        },
+        {
+            "name": "Viaje del heroe V2",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/16.jpg",
+            "enlace": "projects/16El-viaje-del-heroe-V2/index.html"
+        },
+        {
+            "name": "Ajedrez V2",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/15.jpg",
+            "enlace": "projects/15Tablero-animado/index.html"
+        },
+        {
+            "name": "Congreso",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/14.jpg",
+            "enlace": "projects/14Congreso/index.html"
+        },
+        {
+            "name": "Tragaperras",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/13.jpg",
+            "enlace": "projects/13Tragaperras/index.html"
+        },
+        {
+            "name": "Ajedrez V1",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/12.jpg",
+            "enlace": "projects/12Ajedrez/index.html"
+        },
+        {
+            "name": "Adivina la secuencia",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/11.jpg",
+            "enlace": "projects/11Adivina-la-secuencia/index.html"
+        },
+        {
+            "name": "Evento",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/10.jpg",
+            "enlace": "projects/10Evento/index.html"
+        },
+        {
+            "name": "Viaje del heroe V1",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/9.jpg",
+            "enlace": "projects/09Viaje-del-heroe/opcional.html"
+        },
+        {
+            "name": "Lanzamiento de dados",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/8.jpg",
+            "enlace": "projects/08Lanzamiento-dados/index.html"
+        },
+        {
+            "name": "Elige tu aventura",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/7.jpg",
+            "enlace": "projects/07Aventura/index.html"
+        },
+        {
+            "name": "Caja fuerte",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/6.jpg",
+            "enlace": "projects/06Caja-fuerte/index.html"
+        },
+        {
+            "name": "Calculadora Habilidad",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/5.jpg",
+            "enlace": "projects/05Calculadora-de-habilidad/opcional.html"
+        },
+        {
+            "name": "Zodiaco",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/4.jpg",
+            "enlace": "projects/04Zodiaco/index.html"
+        },
+        {
+            "name": "Mapa sensible",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/3.jpg",
+            "enlace": "projects/03Mapeado/index.html"
+        },
+        {
+            "name": "Areas",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/2.jpg",
+            "enlace": "projects/02Area-figuras/Opcional.html"
+        },
+        {
+            "name": "Enlaces",
+            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "imageURL": "img/projects/1.jpg",
+            "enlace": "projects/01Enlaces/Boostrap-ver/1-Inicio.html"
+        }
+    ]
 }

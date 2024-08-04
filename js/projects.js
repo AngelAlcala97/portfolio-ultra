@@ -20,7 +20,8 @@ request.onload = function () {
         const project = document.createElement('div');
         project.className = 'card';
                 project.innerHTML = `
-                    <div class="cardImage" style="background: url(${ANGEL.projects[i].imageURL}); background-size: contain;">
+                    <a target="_blank" href="${ANGEL.projects[i].enlace}">
+                    <div class="cardImage" style="background: url(${ANGEL.projects[i].imageURL}); background-size: cover;">
                         <div class="slider">
                             <img src="img/estrellas-slider1.png">
                             <img src="img/estrellas-slider1.png">
@@ -32,7 +33,8 @@ request.onload = function () {
                     <div class="cardText">
                         <h1>${ANGEL.projects[i].name}</h1>
                         <p>${ANGEL.projects[i].description}</p>
-                    </div>`
+                    </div>
+                    </a>`
                     projectsTable.appendChild(project);
       }
 
