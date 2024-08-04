@@ -284,6 +284,9 @@
     height: 90%;
     display: flex;
     justify-content: center;
+    background: url(img/fondomarco.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
