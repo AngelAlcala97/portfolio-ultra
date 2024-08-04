@@ -10,7 +10,7 @@ var buclePrincipal = {
 
 		if(registroTemporal - buclePrincipal.ultimoRegistro > 999) {
 			buclePrincipal.ultimoRegistro = registroTemporal;
-			// console.log("APS: " + buclePrincipal.aps + " | FPS: " + buclePrincipal.fps);
+			console.log("APS: " + buclePrincipal.aps + " | FPS: " + buclePrincipal.fps);
 			buclePrincipal.aps = 0;
 			buclePrincipal.fps = 0;
 		}
@@ -19,6 +19,9 @@ var buclePrincipal = {
 
 	},
 	actualizar(registroTemporal) {
+		var currentdate = new Date();
+	    var datetime = "0" + currentdate.getDate() + "/0" + (currentdate.getMonth()+1) + "/" + currentdate.getFullYear() + " - " + currentdate.getHours() + ":" + currentdate.getMinutes() + ":" + currentdate.getSeconds();
+	    document.getElementById('time').innerHTML= datetime
 		buclePrincipal.aps++;
 	},
 	dibujar(registroTemporal) {

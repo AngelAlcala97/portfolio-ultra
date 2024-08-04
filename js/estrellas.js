@@ -3,10 +3,6 @@ var contadorEstrellas=0;
 var pausar1;
 var pausar2;
 
-function randomNumber(quantity0,quantity1){
-    return Math.floor((Math.random() * ((quantity1 + 1) - quantity0)) + quantity0);
- }
-
 class CreaEstrellas{
     constructor(nombre,imagen,posy,posx,zindex,tiempoAnimacion){
         this.nombre=nombre
@@ -28,31 +24,27 @@ class CreaEstrellas{
 }
 
 function Estrellado(){
+    clearTimeout(pausar2)
     if (contadorEstrellas<=75){
         estrellas.push(new CreaEstrellas("estrella"+contadorEstrellas,randomNumber(2,2), randomNumber(-100,80),randomNumber(0,90),randomNumber(0,9),randomNumber(1,1)))
         estrellas[contadorEstrellas].generarEstrella();
         contadorEstrellas++
         Estrellado()
-        
+    } else {
         pausar1= setTimeout(() => {
-           clearTimeout(pausar2)
-        
             BorraEstrella()
         }, 6000);
     }
 
 function BorraEstrella(){
+    clearTimeout(pausar1)
     document.querySelector('.header .estrellas').style='opacity:0'
-    
     pausar2= setTimeout(() => {
-        clearTimeout(pausar1)
         document.querySelector('.header .estrellas').style='opacity:1'
         document.querySelector('.header .estrellas').innerHTML='';
         contadorEstrellas=0
         estrellas=[]
-
         Estrellado()
     }, 6200);
-
 }
 }

@@ -1,10 +1,6 @@
 var nubes=[];
 var contadorNubes=0;
 
-function randomNumber(quantity0,quantity1){
-    return Math.floor((Math.random() * ((quantity1 + 1) - quantity0)) + quantity0);
- }
-
 class CreaNubes{
     constructor(nombre,imagen,posy,posx,zindex,tiempoAnimacion){
         this.nombre=nombre
@@ -27,11 +23,11 @@ class CreaNubes{
 
 function Nublado(){
     if (contadorNubes<=20){
-    // setTimeout(() => {
-        nubes.push(new CreaNubes("nube"+contadorNubes,randomNumber(2,3), randomNumber(1,80),randomNumber(-20,100),randomNumber(0,9),randomNumber(60,150)))
-        nubes[contadorNubes].generarNube();
-        contadorNubes++
-        Nublado()
-    // }, 0);
-} 
+        // setTimeout(() => {
+            nubes.push(new CreaNubes("nube"+contadorNubes,randomNumber(2,3), randomNumber(1,80),randomNumber(-20,100),randomNumber(0,9),randomNumber(60,150)))
+            nubes[contadorNubes].generarNube();
+            contadorNubes++
+            Nublado()
+            // }, 0);
+        } 
 }

@@ -3,10 +3,6 @@ var contadorCometas=0;
 var pausar3;
 var pausar4;
 
-function randomNumber(quantity0,quantity1){
-    return Math.floor((Math.random() * ((quantity1 + 1) - quantity0)) + quantity0);
- }
-
 class CreaCometas{
     constructor(nombre,imagen,posy,posx,zindex,tiempoAnimacion){
         this.nombre=nombre
@@ -33,26 +29,17 @@ function Cometado(){
         cometas[contadorCometas].generarCometa();
         contadorCometas++
         Cometado()
-        
+    } else {
         pausar3= setTimeout(() => {
-        //    clearTimeout(pausar2)
-        
            BorraCometa()
         }, 40000);
     }
 
 function BorraCometa(){
-    document.querySelector('.header .cometas').style='opacity:0'
-    
-    // pausar4= setTimeout(() => {
         clearTimeout(pausar3)
-        document.querySelector('.header .cometas').style='opacity:1'
         document.querySelector('.header .cometas').innerHTML='';
         contadorCometas=0
         cometas=[]
-
         Cometado()
-    // }, 6200);
-
 }
 }
