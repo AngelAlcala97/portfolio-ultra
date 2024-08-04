@@ -128,7 +128,7 @@
         },
         {
             "name": "Enlaces",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Introductory work in HTML. Learning links and anchor in functional web, with access to the pages to each other. And several anchor links in the subpages themselves.",
             "imageURL": "img/projects/1.jpg",
             "enlace": "projects/01Enlaces/Boostrap-ver/1-Inicio.html"
         }

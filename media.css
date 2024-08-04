@@ -627,7 +627,7 @@ color: var(--letra);
 .card{
   max-width: 100%;
   padding: 20px;
-  height: 640px;
+  height: 340px;
   background: #FFFAF4;
   box-shadow: rgba(37, 13, 4, 0.18) 0px 30px 20px -20px;
   box-sizing: border-box;
