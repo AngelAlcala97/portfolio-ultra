@@ -19,6 +19,8 @@
     background-repeat: repeat-x;
     background-size: contain;
     font-family: 'Neusa';
+    scrollbar-color: #E3DAC9 #524E47;
+    scrollbar-width: thin;
   }
   .nubes{
     overflow: hidden;
@@ -570,10 +572,10 @@ margin-bottom: 50px;
 font-family: 'Orpehus';
 font-size: 36px;
 line-height: 33px;
-color: #48453E;
-font-weight: 900;
-font-style: normal;
 letter-spacing: 3px;
+font-style: normal;
+font-weight: 900;
+color: #48453E;
 color: var(--letra);
 }
 .projects::before{
@@ -607,6 +609,8 @@ color: var(--letra);
   row-gap: 20px;
   height: 80%;
   width: 75%;
+  scrollbar-color: #E3DAC9 #524E47;
+  scrollbar-width: thin;
 }
 .card{
   max-width: 100%;
@@ -744,7 +748,11 @@ footer img{
   bottom: 2vh;
 }
 #time{
-  font-size: 28px;
+  font-family: 'Orpehus';
+  font-size: 36px;
+  line-height: 33px;
+  letter-spacing: 3px;
+  font-style: normal;
+  font-weight: 900;
   color: var(--white);
-  font-weight: bold;
 }
