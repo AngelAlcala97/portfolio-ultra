@@ -503,7 +503,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  filter: drop-shadow(.1vh .1vh .3vh var(--links));
+  /* filter: drop-shadow(.1vh .1vh .3vh var(--links)); */
 }
 
 .planetClock-face {
