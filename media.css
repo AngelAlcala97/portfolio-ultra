@@ -734,9 +734,11 @@ gap: 6px;
 
 footer{
   position: relative;
-  height: 30vh;
-  background: url(img/mar.png);
-  background-size: contain;
+  height: 70vh;
+  background: url(img/mar3.png);
+  /* background-size: contain; */
+  background-position-y: 100%;
+  background-repeat: repeat-x;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -761,5 +763,21 @@ footer img{
   font-style: normal;
   font-weight: 900;
   color: var(--white);
+  background: url(img/bg-pattern-sky-clouds-xs.png);
+  background-repeat: repeat-x;
+  background-size: cover;
+  animation: animation2 100s linear infinite;
+  position: absolute;
+  top: -35%;
+  height: 100%;
+  width: 100%;
 }
+
+@keyframes animation2 {
+  100%{
+   background-position:3000px 0;
+ }
+}
+
+
 }
