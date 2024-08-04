@@ -626,8 +626,8 @@ color: var(--letra);
   align-items: center;
   height: 60%;
   width: 100%;
-  background: url(img/prueba.png);
-  background-size: cover;
+  /* background: url(img/prueba.png);
+  background-size: cover; */
   position: relative;
   cursor: pointer;
 }

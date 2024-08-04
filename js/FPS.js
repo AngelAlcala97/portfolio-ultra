@@ -10,7 +10,7 @@ var buclePrincipal = {
 
 		if(registroTemporal - buclePrincipal.ultimoRegistro > 999) {
 			buclePrincipal.ultimoRegistro = registroTemporal;
-			console.log("APS: " + buclePrincipal.aps + " | FPS: " + buclePrincipal.fps);
+			// console.log("APS: " + buclePrincipal.aps + " | FPS: " + buclePrincipal.fps);
 			buclePrincipal.aps = 0;
 			buclePrincipal.fps = 0;
 		}

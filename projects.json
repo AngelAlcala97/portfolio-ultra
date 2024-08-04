@@ -1,0 +1,19 @@
+{
+"projects": [
+    {
+      "name": "Enlaces",
+      "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+      "imageURL": "img/projects/01.jpg"
+    },
+    {
+      "name": "Madame Uppercut",
+      "age": 39,
+      "secretIdentity": "Jane Wilson"
+    },
+    {
+      "name": "Eternal Flame",
+      "age": 1000000,
+      "secretIdentity": "Unknown"
+    }
+]
+}
