@@ -2,127 +2,127 @@
     "projects": [
         {
             "name": "Animaciones CSS",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Work of initiation to animations through css. It consists of an element that travels to the point you want, and returns. In this case they are coins",
             "imageURL": "img/projects/22.jpg",
             "enlace": "projects/22Animacion-CSS/index.html"
         },
         {
             "name": "Desactivar Escudos",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Mini-game to deactivate shields, with the game of the hangman, visually like a classic space invaders.",
             "imageURL": "img/projects/21.jpg",
             "enlace": "projects/21Desactivar-escudos/inicio.html"
         },
         {
             "name": "Weekend Website",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Web design for a music festival. Practice for aesthetics, and web interface design.",
             "imageURL": "img/projects/20.jpg",
             "enlace": "projects/20WEEKEND-BEACH/index.html"
         },
         {
             "name": "Animaciones JS",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Work of initiation to animations through javascript.",
             "imageURL": "img/projects/19.jpg",
             "enlace": "projects/19Animaciones-JS/13-animaciones.html"
         },
         {
             "name": "Investigación CSS",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "CSS research paper, on the use of nth-child. How is it used, what does it affect...",
             "imageURL": "img/projects/18.jpg",
             "enlace": "projects/18Investigación/index.html"
         },
         {
             "name": "Alumnos con Vector",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "CRUD design, student table design, data modification, cell deletion, etc.",
             "imageURL": "img/projects/17.jpg",
             "enlace": "projects/17Alumnos-con-vector/index.html"
         },
         {
             "name": "Viaje del heroe V2",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Introduction to matrices, dynamic grid and character generation, and movement through keyboard events.",
             "imageURL": "img/projects/16.jpg",
             "enlace": "projects/16El-viaje-del-heroe-V2/index.html"
         },
         {
             "name": "Ajedrez V2",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Second attempt at animated chess. Displays the board that the user enters, if it is 8x8 the figures appear.",
             "imageURL": "img/projects/15.jpg",
             "enlace": "projects/15Tablero-animado/index.html"
         },
         {
             "name": "Congreso",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Web design for the Artificial Intelligence conference. Practice for design, layout and aesthetics.",
             "imageURL": "img/projects/14.jpg",
             "enlace": "projects/14Congreso/index.html"
         },
         {
             "name": "Tragaperras",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Mini slot game, where you have credits, and you can win or lose everything.",
             "imageURL": "img/projects/13.jpg",
             "enlace": "projects/13Tragaperras/index.html"
         },
         {
             "name": "Ajedrez V1",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "First attempt to generate a chessboard dynamically, independently of the squares entered by the user.",
             "imageURL": "img/projects/12.jpg",
             "enlace": "projects/12Ajedrez/index.html"
         },
         {
             "name": "Adivina la secuencia",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Mini-game of guessing the correct color sequence, like Simon Says, if you win, the difficulty increases.",
             "imageURL": "img/projects/11.jpg",
             "enlace": "projects/11Adivina-la-secuencia/index.html"
         },
         {
             "name": "Evento",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Simple programming event website to improve css, aesthetics and interface design.",
             "imageURL": "img/projects/10.jpg",
             "enlace": "projects/10Evento/index.html"
         },
         {
             "name": "Viaje del heroe V1",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Work on dynamic character creation and movement by clicking on buttons on the screen. Attempt number 1",
             "imageURL": "img/projects/9.jpg",
             "enlace": "projects/09Viaje-del-heroe/opcional.html"
         },
         {
             "name": "Lanzamiento de dados",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Work of dice rolls, for calculation of rolls, averages, summations, dynamically in an interface.",
             "imageURL": "img/projects/8.jpg",
             "enlace": "projects/08Lanzamiento-dados/index.html"
         },
         {
             "name": "Elige tu aventura",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Graphic adventure work, following the scripts of choose your own adventure, by elections.",
             "imageURL": "img/projects/7.jpg",
             "enlace": "projects/07Aventura/index.html"
         },
         {
             "name": "Caja fuerte",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Mini-game job open the safe, the user has 3 attempts to open the safe by entering a 3-digit pin number.",
             "imageURL": "img/projects/6.jpg",
             "enlace": "projects/06Caja-fuerte/index.html"
         },
         {
             "name": "Calculadora Habilidad",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Initiation work on variables and dynamical elements generated on the basis of data entered by the user.",
             "imageURL": "img/projects/5.jpg",
             "enlace": "projects/05Calculadora-de-habilidad/opcional.html"
         },
         {
             "name": "Zodiaco",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Zodiac sign work, personalized answers according to your day of birth",
             "imageURL": "img/projects/4.jpg",
             "enlace": "projects/04Zodiaco/index.html"
         },
         {
             "name": "Mapa sensible",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Sensitive image map work, by means of imagemap and figures with concrete coordinates on which to perform mouse events.",
             "imageURL": "img/projects/3.jpg",
             "enlace": "projects/03Mapeado/index.html"
         },
         {
             "name": "Areas",
-            "description": "HTML work of initiation, the idea was to make an accessible web with several pages and links between them.",
+            "description": "Introductory work to Javascript, area calculator of different figures. Automated by entering values.",
             "imageURL": "img/projects/2.jpg",
             "enlace": "projects/02Area-figuras/Opcional.html"
         },
