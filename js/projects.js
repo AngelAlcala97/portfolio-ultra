@@ -21,7 +21,7 @@ request.onload = function () {
         project.className = 'card';
                 project.innerHTML = `
                     <a target="_blank" href="${ANGEL.projects[i].enlace}">
-                    <div class="cardImage" style="background: url(${ANGEL.projects[i].imageURL}); background-size: cover;">
+                    <div class="cardImage" style="background-image: url(${ANGEL.projects[i].imageURL});">
                         <div class="slider">
                             <img src="img/estrellas-slider1.png">
                             <img src="img/estrellas-slider1.png">
