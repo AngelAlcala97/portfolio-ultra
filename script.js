@@ -46,6 +46,43 @@ click.addEventListener('click', () => {
     }
 });
 
+const allLinks = document.querySelectorAll(".tabs a");
+const allLi = document.querySelectorAll(".tabs li");
+const allTabs = document.querySelectorAll(".tab-content");
 
+allLinks.forEach((elem) => {
+  elem.addEventListener("click", function () {
+    const linkId = elem.id;
+    const hrefLinkClick = elem.href;
+
+    allLinks.forEach((link) => {
+      if (link.href == hrefLinkClick) {
+        link.classList.add("active-tab");
+      } else {
+        link.classList.remove("active-tab");
+      }
+    });
+
+    allLi.forEach((lista) => {
+        const idLi = lista.id;
+        if (idLi.includes(linkId)) {
+            lista.classList.remove("noActive-list");
+            lista.classList.add("active-list");
+        } else {
+            lista.classList.remove("active-list");
+            lista.classList.add("list");
+        }
+      });
+
+    allTabs.forEach((tab) => {
+      const id = tab.id;
+      if (id.includes(linkId)) {
+        tab.classList.add("tab-content--active");
+      } else {
+        tab.classList.remove("tab-content--active");
+      }
+    });
+  });
+});
  
 
