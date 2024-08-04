@@ -30,22 +30,22 @@ function bajarEstandarte(){
 
 var angel= document.querySelector('#yo')
 var pixelangel= document.querySelector('#pixelyo')
+var click= document.querySelector('#click')
 
+click.addEventListener('click', () => {
+    if (pixelangel.classList.contains('noOpacidad')){
+        pixelangel.classList.remove('noOpacidad')
+        pixelangel.classList.add('porEncima')
+        angel.classList.add('noOpacidad')
+        angel.classList.remove('porEncima')
+    } else {
+        pixelangel.classList.add('noOpacidad')
+        pixelangel.classList.remove('porEncima')
+        angel.classList.remove('noOpacidad')
+        angel.classList.add('porEncima')
+    }
+});
 
-function pixelar(){
-    pixelangel.classList.remove('noOpacidad')
-    pixelangel.classList.add('porEncima')
-    angel.classList.add('noOpacidad')
-    angel.classList.remove('porEncima')
-
-}
-function humanizar(){
-    pixelangel.classList.add('noOpacidad')
-    pixelangel.classList.remove('porEncima')
-    angel.classList.remove('noOpacidad')
-    angel.classList.add('porEncima')
-
-}
 
  
 

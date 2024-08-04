@@ -1,48 +1,208 @@
 @font-face {
-    font-family: 'Gusto';
-    src: url('Gusto-BoldItalic.eot');
-    src: local('Gusto Bold Italic'), local('Gusto-BoldItalic'),
-        url('Gusto-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('Gusto-BoldItalic.woff2') format('woff2'),
-        url('Gusto-BoldItalic.woff') format('woff'),
-        url('Gusto-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Gusto';
-    src: url('Gusto-Bold.eot');
-    src: local('Gusto Bold'), local('Gusto-Bold'),
-        url('Gusto-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Gusto-Bold.woff2') format('woff2'),
-        url('Gusto-Bold.woff') format('woff'),
-        url('Gusto-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gusto';
-    src: url('Gusto.eot');
-    src: local('Gusto'),
-        url('Gusto.eot?#iefix') format('embedded-opentype'),
-        url('Gusto.woff2') format('woff2'),
-        url('Gusto.woff') format('woff'),
-        url('Gusto.ttf') format('truetype');
+    font-family: 'Neusa';
+    src: url('Neusa-Regular.eot');
+    src: url('Neusa-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Neusa-Regular.woff2') format('woff2'),
+        url('Neusa-Regular.woff') format('woff'),
+        url('Neusa-Regular.ttf') format('truetype'),
+        url('Neusa-Regular.svg#Neusa-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gusto';
-    src: url('Gusto-Italic.eot');
-    src: local('Gusto Italic'), local('Gusto-Italic'),
-        url('Gusto-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Gusto-Italic.woff2') format('woff2'),
-        url('Gusto-Italic.woff') format('woff'),
-        url('Gusto-Italic.ttf') format('truetype');
+    font-family: 'Neusa';
+    src: url('Neusa-Light.eot');
+    src: url('Neusa-Light.eot?#iefix') format('embedded-opentype'),
+        url('Neusa-Light.woff2') format('woff2'),
+        url('Neusa-Light.woff') format('woff'),
+        url('Neusa-Light.ttf') format('truetype'),
+        url('Neusa-Light.svg#Neusa-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neusa';
+    src: url('Neusa-SemiBold.eot');
+    src: url('Neusa-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Neusa-SemiBold.woff2') format('woff2'),
+        url('Neusa-SemiBold.woff') format('woff'),
+        url('Neusa-SemiBold.ttf') format('truetype'),
+        url('Neusa-SemiBold.svg#Neusa-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neusa';
+    src: url('Neusa-Bold.eot');
+    src: url('Neusa-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Neusa-Bold.woff2') format('woff2'),
+        url('Neusa-Bold.woff') format('woff'),
+        url('Neusa-Bold.ttf') format('truetype'),
+        url('Neusa-Bold.svg#Neusa-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neusa';
+    src: url('Neusa-Regular_1.eot');
+    src: url('Neusa-Regular_1.eot?#iefix') format('embedded-opentype'),
+        url('Neusa-Regular_1.woff2') format('woff2'),
+        url('Neusa-Regular_1.woff') format('woff'),
+        url('Neusa-Regular_1.ttf') format('truetype'),
+        url('Neusa-Regular_1.svg#Neusa-Regular') format('svg');
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neusa';
+    src: url('Neusa-SemiBold_1.eot');
+    src: url('Neusa-SemiBold_1.eot?#iefix') format('embedded-opentype'),
+        url('Neusa-SemiBold_1.woff2') format('woff2'),
+        url('Neusa-SemiBold_1.woff') format('woff'),
+        url('Neusa-SemiBold_1.ttf') format('truetype'),
+        url('Neusa-SemiBold_1.svg#Neusa-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neusa';
+    src: url('Neusa-Black.eot');
+    src: url('Neusa-Black.eot?#iefix') format('embedded-opentype'),
+        url('Neusa-Black.woff2') format('woff2'),
+        url('Neusa-Black.woff') format('woff'),
+        url('Neusa-Black.ttf') format('truetype'),
+        url('Neusa-Black.svg#Neusa-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neusa';
+    src: url('Neusa-DemiBold.eot');
+    src: url('Neusa-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Neusa-DemiBold.woff2') format('woff2'),
+        url('Neusa-DemiBold.woff') format('woff'),
+        url('Neusa-DemiBold.ttf') format('truetype'),
+        url('Neusa-DemiBold.svg#Neusa-DemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neusa';
+    src: url('Neusa-Medium.eot');
+    src: url('Neusa-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Neusa-Medium.woff2') format('woff2'),
+        url('Neusa-Medium.woff') format('woff'),
+        url('Neusa-Medium.ttf') format('truetype'),
+        url('Neusa-Medium.svg#Neusa-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neusa';
+    src: url('Neusa-Light_1.eot');
+    src: url('Neusa-Light_1.eot?#iefix') format('embedded-opentype'),
+        url('Neusa-Light_1.woff2') format('woff2'),
+        url('Neusa-Light_1.woff') format('woff'),
+        url('Neusa-Light_1.ttf') format('truetype'),
+        url('Neusa-Light_1.svg#Neusa-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neusa';
+    src: url('Neusa-ExtraBold.eot');
+    src: url('Neusa-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Neusa-ExtraBold.woff2') format('woff2'),
+        url('Neusa-ExtraBold.woff') format('woff'),
+        url('Neusa-ExtraBold.ttf') format('truetype'),
+        url('Neusa-ExtraBold.svg#Neusa-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neusa';
+    src: url('Neusa-Medium_1.eot');
+    src: url('Neusa-Medium_1.eot?#iefix') format('embedded-opentype'),
+        url('Neusa-Medium_1.woff2') format('woff2'),
+        url('Neusa-Medium_1.woff') format('woff'),
+        url('Neusa-Medium_1.ttf') format('truetype'),
+        url('Neusa-Medium_1.svg#Neusa-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neusa';
+    src: url('Neusa-ExtraBold_1.eot');
+    src: url('Neusa-ExtraBold_1.eot?#iefix') format('embedded-opentype'),
+        url('Neusa-ExtraBold_1.woff2') format('woff2'),
+        url('Neusa-ExtraBold_1.woff') format('woff'),
+        url('Neusa-ExtraBold_1.ttf') format('truetype'),
+        url('Neusa-ExtraBold_1.svg#Neusa-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neusa';
+    src: url('Neusa-Black_1.eot');
+    src: url('Neusa-Black_1.eot?#iefix') format('embedded-opentype'),
+        url('Neusa-Black_1.woff2') format('woff2'),
+        url('Neusa-Black_1.woff') format('woff'),
+        url('Neusa-Black_1.ttf') format('truetype'),
+        url('Neusa-Black_1.svg#Neusa-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neusa';
+    src: url('Neusa-DemiBold_1.eot');
+    src: url('Neusa-DemiBold_1.eot?#iefix') format('embedded-opentype'),
+        url('Neusa-DemiBold_1.woff2') format('woff2'),
+        url('Neusa-DemiBold_1.woff') format('woff'),
+        url('Neusa-DemiBold_1.ttf') format('truetype'),
+        url('Neusa-DemiBold_1.svg#Neusa-DemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neusa';
+    src: url('Neusa-Bold_1.eot');
+    src: url('Neusa-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('Neusa-Bold_1.woff2') format('woff2'),
+        url('Neusa-Bold_1.woff') format('woff'),
+        url('Neusa-Bold_1.ttf') format('truetype'),
+        url('Neusa-Bold_1.svg#Neusa-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
