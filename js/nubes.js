@@ -15,19 +15,20 @@ class CreaNubes{
         this.tiempoAnimacion=tiempoAnimacion
     }
     generarNube(){
-        document.querySelector('main div').innerHTML+='<img id="'+this.nombre+'"src="img/nube'+this.imagen+'.png">'
+        document.querySelector('.header .nubes').innerHTML+='<img id="'+this.nombre+'"src="img/nube'+this.imagen+'.png">'
         document.getElementById(this.nombre).style.position= 'absolute'
-        document.getElementById(this.nombre).style.left= this.posx + 'px'
-        document.getElementById(this.nombre).style.top= this.posy + 'px'
+        document.getElementById(this.nombre).style.width= '16vw'
+        document.getElementById(this.nombre).style.left= this.posx + 'vw'
+        document.getElementById(this.nombre).style.top= this.posy + 'vh'
         document.getElementById(this.nombre).style.zIndex= this.zindex
         document.getElementById(this.nombre).style.animation= 'nublado '+this.tiempoAnimacion+'s linear infinite'
     }
 }
 
 function Nublado(){
-    if (contadorNubes<=7){
+    if (contadorNubes<=20){
     // setTimeout(() => {
-        nubes.push(new CreaNubes("nube"+contadorNubes,randomNumber(2,3), randomNumber(20,380),randomNumber(-800,-300),randomNumber(0,9),randomNumber(60,80)))
+        nubes.push(new CreaNubes("nube"+contadorNubes,randomNumber(2,3), randomNumber(1,80),randomNumber(-20,100),randomNumber(0,9),randomNumber(60,150)))
         nubes[contadorNubes].generarNube();
         contadorNubes++
         Nublado()
