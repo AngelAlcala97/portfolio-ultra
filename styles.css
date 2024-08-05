@@ -500,56 +500,128 @@
   background: url(img/fondo1.png);
   background-repeat: repeat-x;
   background-size: contain;
+  /* position: relative; */
+  padding-bottom: 20px;
 }
-
-.planetClock {
-  width: 650px;
-  height: 650px;
-  border-radius: 50%;
+.galaxy{
+  height: 750px;
+  width: 750px;
   position: relative;
-  background: url('img/clock.png');
-  background-size: contain;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  /* border: 1px solid wheat; */
 }
 
-.planetClock-face {
-   width: 100%;
-  height: 100%;
-  position: relative;
-  transform: translateY(-3px);
-}
+.sun {
+    width: 50vh;
+    height: 50vh;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #sol{
+    width: 75%;
+    filter: drop-shadow(.1vh .1vh 2vh #feab06 );
+    animation: orbit 100s linear infinite;
 
-.number {
-  width: 10%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  transition: all 3s;
-  cursor: pointer;
-  user-select: none;
-}
-.number img{
-  width: 100%;
-}
-.number:hover{
-  top: 50%;
-  left: 50%;
-  width: 150px;
-}
-
-.number1 { top: 12.5%; left: 72%; }
-.number2 { top: 28.5%; left: 87.5%; }
-.number3 { top: 50.5%; left: 95%; }
-.number4 { top: 72.5%; left: 87.5%; }
-.number5 { top: 88%; left: 71.5%; }
-.number6 { top: 92.5%; left: 50%; }
-.number7 { top: 87.5%; left: 29%; }
-.number8 { top: 72.5%; left: 12.5%; }
-.number9 { top: 50.5%; left: 5%; }
-.number10 { top: 29%; left: 12.5%; }
-.number11 { top: 12.5%; left: 28.5%; }
-.number12 { top: 7.5%; left: 50%; }
+  }
+  .planet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 0.5px solid #524E47;
+    border-radius: 100%;
+    position: absolute;
+  }
+  .planet img{
+    width: 10%;
+    position: absolute;
+    /* left: 95%; */
+  }
+  .moon{
+    width: 25vh;
+    height: 25vh;
+    left: 25%;
+    top: 25%;
+    animation: orbit 10s linear infinite;
+  }
+  #moon{
+    left: -5%;
+  }
+  .desert2{
+    width: 35vh;
+    height: 35vh;
+    left: 15%;
+    top: 15%;
+    animation: orbit 20s linear infinite;
+  }
+  #desert2{
+    left: 95%;
+  }
+   .earth{
+    width: 45vh;
+    height: 45vh;
+    left: 5%;
+    top: 5%;
+    animation: orbit 30s linear infinite;
+  }
+  #earth{
+    left: 50%;
+    top: 95%;
+  }
+  .desert{
+    width: 55vh;
+    height: 55vh;
+    left: -5%;
+    top: -5%;
+    animation: orbit 40s linear infinite;
+  }
+  #desert{
+    left: 50%;
+    top: -5%;
+  }
+  .terra{
+    width: 65vh;
+    height: 65vh;
+    left: -15%;
+    top: -15%;
+    animation: orbit 50s linear infinite;
+  }
+  #terra{
+    left: -5%;
+  }
+  .ice{
+    width: 75vh;
+    height: 75vh;
+    left: -25%;
+    top: -25%;
+    animation: orbit 60s linear infinite;
+  }
+  #ice{
+    top: 95%;
+  }
+  .gas3{
+    width: 85vh;
+    height: 85vh;
+    left: -35%;
+    top: -35%;
+    animation: orbit 70s linear infinite;
+  }
+  #gas3{
+    left: 95%;
+  }
+ 
+  @keyframes orbit {
+    0% {
+      transform: rotateZ(0deg); }
+  
+    100% {
+      transform: rotateZ(-360deg); } }
 
 
 .projects{
