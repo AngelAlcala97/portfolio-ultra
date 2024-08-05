@@ -482,6 +482,7 @@ font-weight: bold;
   place-items: center;
   width: 70%;
   height: 80%;
+  margin-top: -20px;
 }
 .tab-content .svg{
   width: 64px;
