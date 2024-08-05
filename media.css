@@ -704,6 +704,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin-bottom: 50px;
 }
 footer #player{
@@ -717,14 +718,12 @@ footer #player{
   bottom: 11vh;
 }
 #time{
-  font-family: 'Orpehus';
-  font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 3px;
+  font-family: 'Neusa';
   font-style: normal;
-  font-weight: 900;
-  color: var(--white);
-  position: absolute;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgb(55, 129, 149);
 }
 
 #mar{
@@ -743,6 +742,27 @@ footer #player{
    background-position:3000px 0;
  }
 }
-
+#copyrights{
+  text-align: center;
+  font-family: 'Neusa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgb(55, 129, 149);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 200px;
+}
+#copyrights #favicon-footer{
+  width: 75px;
+}
+#copyrights #logo-footer{
+  width: 350px;
+  filter: drop-shadow(.1vh .1vh 1vh var(--links));
+}
 
 }

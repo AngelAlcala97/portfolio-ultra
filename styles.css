@@ -706,6 +706,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background: url(img/bg-pattern-sky-clouds-xs.png);
   background-repeat: repeat-x;
   background-size: cover;
@@ -722,14 +723,12 @@ footer #player{
   bottom: 2vh;
 }
 #time{
-  font-family: 'Orpehus';
-  font-size: 36px;
-  line-height: 33px;
-  letter-spacing: 3px;
+  font-family: 'Neusa';
   font-style: normal;
-  font-weight: 900;
-  color: var(--white);
-  position: absolute;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgb(55, 129, 149);
 }
 #mar{
   background: url(img/mar3.png);
@@ -745,4 +744,27 @@ footer #player{
   100%{
    background-position:3000px 0;
  }
+}
+
+#copyrights{
+  text-align: center;
+  font-family: 'Neusa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgb(55, 129, 149);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 100px;
+}
+#copyrights #favicon-footer{
+  width: 75px;
+}
+#copyrights #logo-footer{
+  width: 550px;
+  filter: drop-shadow(.1vh .1vh 1vh var(--links));
 }
