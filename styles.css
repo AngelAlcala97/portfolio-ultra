@@ -179,13 +179,13 @@
     }
   }
 
-  .navBar div svg{
+  /* .navBar div svg{
     color: var(--white);
     cursor: pointer;
     height: 4vh;
     z-index: 3;
     position: relative;
-  }
+  } */
   .navBar img{
     width: 90%;
   }

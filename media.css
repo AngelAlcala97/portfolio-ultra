@@ -184,14 +184,14 @@
     background: linear-gradient(180deg, rgba(61,211,238,1) 75%, rgba(63,217,192,1) 100%);
     }
   }
-
+/* 
   .navBar div svg{
     color: var(--white);
     cursor: pointer;
     height: 4vh;
     z-index: 3;
     position: relative;
-  }
+  } */
   .navBar img{
     width: 90%;
   }
