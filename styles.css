@@ -488,9 +488,9 @@
   align-items: center;
   padding: 16px;
 }
-/* .tab-content .svg:first-child{
+.tab-content .svg:first-child{
   background: #E54C21;
-} */
+}
 .tab-content .svg:nth-child(2){
   background: #214CE5;
 }
