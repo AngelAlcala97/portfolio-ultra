@@ -1,10 +1,10 @@
 @media (max-width: 500px) {
   html,body{
     margin: 0;
-    background: url(img/fondo1.png);
+    /* background: url(img/fondo1.png);
     background-attachment: fixed;
     background-repeat: repeat-x;
-    background-size: cover;
+    background-size: cover; */
     scrollbar-color: #E3DAC9 #524E47;
     scrollbar-width: thin;
   }
@@ -28,7 +28,7 @@
      background: url(img/bg-pattern-sky-clouds-xs.png);
     background-repeat: repeat-x;
     background-size: cover;
-    animation: animation 100s linear infinite;
+    animation: animation2 100s linear infinite;
   }
 
 
@@ -47,6 +47,10 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: url(img/fondo1.png);
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-size: cover;
   }
   .logo{
     width: 5%;
@@ -479,12 +483,16 @@
 }
 
 .planets{
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url(img/fondo1.png);
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+  background-size: cover;
 }
 
 .planetClock {
@@ -696,16 +704,16 @@ gap: 6px;
 
 footer{
   position: relative;
-  height: 80vh;
-  background: url(img/bg-pattern-sky-clouds-xs.png);
-  background-repeat: repeat-x;
-  background-position-y: -50%;
-  animation: animation2 100s linear infinite;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+  background: url(img/fondo1.png);
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+  background-size: cover;
 }
 footer #player{
   cursor: pointer;
