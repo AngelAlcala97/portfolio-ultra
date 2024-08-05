@@ -318,13 +318,13 @@
   #yo{
     width: 45%;
     position: absolute;
-    top: 51%;
+    top: 52%;
     transition: 2s all;
   }
   #pixelyo{
     width: 45%;
     position: absolute;
-    top: 51%;
+    top: 52%;
     z-index: 0;
     transition: 2s all;
   }
