@@ -61,9 +61,6 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* background: url(img/fondo1.png);
-    background-repeat: repeat-x;
-    background-size: contain; */
   }
   .logo{
     width: 5%;
@@ -82,7 +79,6 @@
     z-index: 9999;
     height: 70px;
     bottom: 87%;
-    /* top: 5%; */
     width: 70%;
     display: flex;
     justify-content: center;
@@ -199,9 +195,7 @@
     z-index: 5;
     transition: 1s;
   }
-  /* #estandarte:hover{
-      opacity: 0;
-  } */
+
   #linkedin{
     transition: 1s;
   }
@@ -242,10 +236,8 @@
     left: 0;
     width: 100%;
     height: 100px;
-    /* background: rgb(61,211,238); */
     background: url(img/separador.png);
     background-size: contain;
-    /* background-repeat: no-repeat; */
   }
   .web::after{
     content: '';
@@ -264,7 +256,6 @@
     height: 80%;
     width: 80%;
     box-sizing: border-box;
-    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -279,7 +270,6 @@
     width: 70%;
     height: 100%;
     box-sizing: border-box;
-    /* border: 1px solid black; */
   }
   .imagenes{
     width: 30%;
@@ -352,7 +342,6 @@
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
-    /* border: 1px solid black; */
 }
 
 .tabs {
@@ -362,16 +351,13 @@
     width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
-    /* min-height: 10%; */
     list-style-type: none;
     box-sizing: border-box;
-    /* border: 1px solid black; */
 }
 
 .tabs li {
     position: relative;
     z-index: 2;
-    /* background: #E3DAC9; */
     padding: 2px;
 }
 .tabs li:first-child{
@@ -478,11 +464,7 @@
 }
 
 @keyframes estrellado {
-  /* 0% {opacity: 0;} */
   0% {scale: 1;}
-
-  /* 50% {opacity: 1;} */
-  /* 100% {opacity: 1;} */
   100% {scale: 1.5;}
 
 }
@@ -512,14 +494,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* filter: drop-shadow(.1vh .1vh .3vh var(--links)); */
 }
 
 .planetClock-face {
    width: 100%;
   height: 100%;
   position: relative;
-  /* border: 1px solid wheat; */
   transform: translateY(-3px);
 }
 
@@ -625,20 +605,17 @@ color: var(--letra);
   flex-direction: column;
 }
 .card a{
-  /* position: absolute; */
   height: 100%;
   width: 100%;
   text-decoration: none;
 }
 .cardImage{
   box-sizing: border-box;
-  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 60%;
   width: 100%;
-  /* background: url(img/prueba.png); */
   background-size: cover;
   position: relative;
   cursor: pointer;
@@ -652,7 +629,6 @@ color: var(--letra);
   left: -5px;
   background: url(img/esquinita.svg);
   background-size: contain;
-  /* transform: rotateZ(45deg); */
 }
 .cardImage::after{
   content: '';
@@ -683,21 +659,17 @@ gap: 6px;
   width: 12%;
   box-sizing: border-box;
   cursor: pointer;
-  /* border: 1px solid black; */
 }
 
 .cardText{
   height: 40%;
   width: 100%;
   box-sizing: border-box;
-  /* border: 1px solid black; */
   padding-left: 40px;
   padding-right: 40px;
   display: flex;
   justify-content: flex-start;
-  /* align-items: center; */
   flex-direction: column;
-  /* margin-top: -5px; */
 }
 .cardText h1{
   font-size: 1.875rem;
@@ -712,7 +684,6 @@ gap: 6px;
   line-height: 28px;
   color: #6a675e;
   font-weight: 700;
-  /* letter-spacing: normal; */
 }
 .fin-seccion{
   width: 100%;
@@ -732,17 +703,15 @@ gap: 6px;
 footer{
   position: relative;
   height: 100vh;
-  /* margin-top: 500px; */
-  background: url(img/mar3.png);
-  /* background-size: cover; */
-  background-repeat: repeat-x;
-  background-position-y: 110%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url(img/bg-pattern-sky-clouds-xs.png);
+  background-repeat: repeat-x;
+  background-size: cover;
+  animation: animation2 100s linear infinite;
 }
-footer img{
-  /* border: 2px solid var(--white); */
+footer #player{
   cursor: pointer;
   z-index: 9999999;
   border-radius: 100%;
@@ -760,12 +729,14 @@ footer img{
   font-style: normal;
   font-weight: 900;
   color: var(--white);
-  background: url(img/bg-pattern-sky-clouds-xs.png);
-  background-repeat: repeat-x;
-  background-size: cover;
-  animation: animation2 100s linear infinite;
   position: absolute;
-  top: -12%;
+}
+#mar{
+  background: url(img/mar3.png);
+  background-repeat: repeat-x;
+  background-position-y: 110%;
+  position: absolute;
+  bottom: 0;
   height: 100%;
   width: 100%;
 }
