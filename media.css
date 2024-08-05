@@ -269,7 +269,18 @@
   .fin-seccion img{
     width: 100%;
   }
-  
+  .web .titulo{
+    margin-top: 40px;
+    margin-bottom: -60px;
+    font-family: 'Orpehus';
+    font-size: 36px;
+    line-height: 33px;
+    color: #48453E;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 3px;
+    color: var(--letra);
+    }
  
   .info{
     height: 90%;
