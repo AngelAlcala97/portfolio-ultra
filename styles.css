@@ -501,7 +501,9 @@
   background-repeat: repeat-x;
   background-size: contain;
   /* position: relative; */
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
 }
 .galaxy{
   height: 750px;
