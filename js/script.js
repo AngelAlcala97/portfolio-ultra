@@ -1,6 +1,6 @@
 var audio= document.getElementById('audio')
 function musica(){
-    var player = document.querySelector("footer img")
+    var player = document.querySelector("footer #player")
     // audio.play()
     player.src='img/pause.png'
     if(!audio.paused && !audio.ended){ 
