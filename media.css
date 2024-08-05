@@ -3,6 +3,7 @@
     margin: 0;
     scrollbar-color: #E3DAC9 #524E47;
     scrollbar-width: thin;
+    overflow-x: hidden;
   }
   .nubes{
     overflow: hidden;
