@@ -717,14 +717,7 @@ footer #player{
   right: 7.5vw;
   bottom: 11vh;
 }
-#time{
-  font-family: 'Neusa';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 28px;
-  color: rgb(55, 129, 149);
-}
+
 
 #mar{
   background: url(img/mar3.png);
@@ -770,8 +763,8 @@ footer #player{
   font-family: 'Neusa';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 18px;
+  line-height: 20px;
   color: rgb(55, 129, 149);
   display: flex;
   justify-content: center;
@@ -779,6 +772,14 @@ footer #player{
   flex-direction: column;
   gap: 10px;
   margin-bottom: 300px;
+}
+#time{
+  font-family: 'Neusa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: rgb(55, 129, 149);
 }
 #copyrights #favicon-footer{
   width: 75px;
