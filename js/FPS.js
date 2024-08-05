@@ -20,7 +20,15 @@ var buclePrincipal = {
 	},
 	actualizar(registroTemporal) {
 		var currentdate = new Date();
-	    var datetime = "0" + currentdate.getDate() + "/0" + (currentdate.getMonth()+1) + "/" + currentdate.getFullYear() + " - " + currentdate.getHours() + ":" + currentdate.getMinutes() + ":" + currentdate.getSeconds();
+		if (currentdate.getDate()<10 && (currentdate.getMonth()+1)<10 ){
+			var datetime = "0" + currentdate.getDate() + "/0" + (currentdate.getMonth()+1) + "/" + currentdate.getFullYear() + " - " + currentdate.getHours() + ":" + currentdate.getMinutes() + ":" + currentdate.getSeconds();
+		} else if (currentdate.getDate()>=10 && (currentdate.getMonth()+1)<10 ){
+			var datetime = currentdate.getDate() + "/0" + (currentdate.getMonth()+1) + "/" + currentdate.getFullYear() + " - " + currentdate.getHours() + ":" + currentdate.getMinutes() + ":" + currentdate.getSeconds();
+		}  else if (currentdate.getDate()<10 && (currentdate.getMonth()+1)>=10 ){
+			var datetime = currentdate.getDate() + "/0" + (currentdate.getMonth()+1) + "/" + currentdate.getFullYear() + " - " + currentdate.getHours() + ":" + currentdate.getMinutes() + ":" + currentdate.getSeconds();
+		} else{
+			var datetime = currentdate.getDate() + "/" + (currentdate.getMonth()+1) + "/" + currentdate.getFullYear() + " - " + currentdate.getHours() + ":" + currentdate.getMinutes() + ":" + currentdate.getSeconds();
+		}
 	    document.getElementById('time').innerHTML= datetime
 		buclePrincipal.aps++;
 	},
