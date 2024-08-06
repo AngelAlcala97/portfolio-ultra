@@ -296,16 +296,25 @@
     width: 30%;
     height: 90%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     background: url(img/fondomarco.png);
-    background-size: contain;
+    background-size: 90%;
     background-repeat: no-repeat;
+    background-position: center;
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
     border: 2px solid #D8D1C4;
     margin: 20px 30px;
     padding: 20px;
+  }
+  .imagenesDiv{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
   }
 
   .imagenes img{
@@ -315,22 +324,19 @@
     z-index: 1;
   }
   #yo{
-    width: 15%;
+    width: 60%;
     position: absolute;
     top: 0%;
     transition: 2s all;
   }
   #pixelyo{
-    width: 15%;
+    width: 60%;
     position: absolute;
     top: 0%;
     z-index: 0;
     transition: 2s all;
   }
   #click{
-    position: absolute;
-    top: 78%;
-    left: 78.5%;
     font-family: 'Neusa';
     cursor: pointer;
     user-select: none;

@@ -30,6 +30,9 @@ var buclePrincipal = {
 			var datetime = currentdate.getDate() + "/" + (currentdate.getMonth()+1) + "/" + currentdate.getFullYear() + " - " + currentdate.getHours() + ":" + currentdate.getMinutes() + ":" + currentdate.getSeconds();
 		}
 	    document.getElementById('time').innerHTML= datetime
+		if(audio.ended){
+			player.src='img/play.png'
+		}
 		buclePrincipal.aps++;
 	},
 	dibujar(registroTemporal) {
