@@ -27,7 +27,7 @@ var buclePrincipal = {
 		// document.getElementById('currentTimeDiv').innerHTML= tiempoaudio(audio.currentTime)
 
 		if(audio.ended){
-			player.src='img/play.webp'
+			document.querySelector("footer #player").src='img/play.webp'
 		}
 
 		var currentdate = new Date();
