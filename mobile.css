@@ -594,8 +594,8 @@ font-weight: bold;
     align-items: center;
   }
   #sol{
-    width: 75%;
-    filter: drop-shadow(.1vh .1vh 0.7vh #feab06 );
+    width: 60%;
+    /* filter: drop-shadow(.1vh .1vh 0.7vh #feab06 ); */
     animation: orbit 100s linear infinite;
   }
   .planet{
