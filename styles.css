@@ -945,5 +945,26 @@ footer #player{
   width: 550px;
   filter: drop-shadow(.1vh .1vh 1vh var(--links));
 }
+#audioPlayer{
+  position: fixed;
+  left: 25%;
+  bottom: 0;
+  z-index: 999;
+  background-color: var(--primary);
+  border-radius: 32px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 75px;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--white);
+}
+#audioPlayer img{
+  width: 8%;
+  cursor: pointer;
+  /* position: absolute; */
+}
 
 
