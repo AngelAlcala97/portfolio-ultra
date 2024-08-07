@@ -31,7 +31,7 @@ var buclePrincipal = {
 		}
 	    document.getElementById('time').innerHTML= datetime
 		if(audio.ended){
-			player.src='img/play.png'
+			player.src='img/play.webp'
 		}
 		buclePrincipal.aps++;
 	},

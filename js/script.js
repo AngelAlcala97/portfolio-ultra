@@ -2,10 +2,10 @@ var audio= document.getElementById('audio')
 function musica(){
     var player = document.querySelector("footer #player")
     // audio.play()
-    player.src='img/pause.png'
+    player.src='img/pause.webp'
     if(!audio.paused && !audio.ended){ 
             audio.pause();
-             player.src='img/play.png'
+             player.src='img/play.webp'
     } else {
         audio.play()
     }
