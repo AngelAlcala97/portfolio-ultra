@@ -259,7 +259,6 @@
     <img id="player" onclick="musica()" src="img/play.webp">
     <div id="mar">
         <div class="reflejo">
-            <!-- <img src="img/transparent.png"> -->
          </div>
     </div>
     <audio id="audio">
@@ -268,11 +267,19 @@
     <audio id="player" src="audio/ocean.mp3"></audio>
 
 
-
+<!-- CONTENEDOR DE AUDIO FLOTANTE CON BARRA DE TIEMPO -->
+ 
 <!-- <div id="audioPlayer"> 
-  <img src="img/play2.png" onclick="musica()">
-  Vol +<img src="img/volume-max.png" onclick="document.getElementById('audio').volume += 0.1">
-  Vol -<img src="img/volume-min.png" onclick="document.getElementById('audio').volume -= 0.1">
+  <img id="player2" src="img/play2.png" onclick="musica()">
+      <div id="contenedorTiempo">
+        <div id="currentTime"></div>
+    </div>
+    <p id="currentTimeDiv"></p>
+  <img style="width: 3%;" src="img/volume-min.png" onclick="document.getElementById('audio').volume -= 0.1">
+  <div>
+    <input type="range" id="volume" value="0" min="0" max="1" step="0.1">
+</div>
+<img style="width: 3%;" src="img/volume-max.png" onclick="document.getElementById('audio').volume += 0.1">
 </div> -->
 
 

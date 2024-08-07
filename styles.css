@@ -589,7 +589,7 @@
   #sol{
     width: 60%;
     /* filter: drop-shadow(.1vh .1vh 1vh #feab06 ); */
-    animation: orbit 100s linear infinite;
+    /* animation: orbit 100s linear infinite; */
 
   }
   .planet{
@@ -945,26 +945,53 @@ footer #player{
   width: 550px;
   filter: drop-shadow(.1vh .1vh 1vh var(--links));
 }
-#audioPlayer{
+/* #audioPlayer{
   position: fixed;
-  left: 25%;
+  left: 38%;
   bottom: 0;
   z-index: 999;
-  background-color: var(--primary);
-  border-radius: 32px;
+  background-color: #EEE6D9;
+  border-radius: 50px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   height: 75px;
-  width: 50%;
+  width: 450px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  color: var(--white);
+  color: #524E47;
+  text-align: center;
+  font-family: 'Neusa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  gap: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 5px solid #524E47;
+  border-bottom: 0;
+  box-sizing: border-box;
 }
+
 #audioPlayer img{
-  width: 8%;
+  width: 40px;
   cursor: pointer;
-  /* position: absolute; */
 }
+#audioPlayer #contenedorTiempo{
+  height: 8px;
+  background: var(--primary);
+  display: flex;
+  justify-content: flex-start;
+  transition: all 0.1s;
+  box-sizing: border-box;
+  border: 1px solid #524E47 ;
+}
+#audioPlayer #contenedorTiempo #currentTime{
+  height: 100%;
+  background: #EEE6D9;
+  transition: all 0.1s;
+} */
+
 
 

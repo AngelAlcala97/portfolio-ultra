@@ -1,7 +1,6 @@
 var audio= document.getElementById('audio')
 function musica(){
     var player = document.querySelector("footer #player")
-    // audio.play()
     player.src='img/pause.webp'
     if(!audio.paused && !audio.ended){ 
             audio.pause();
@@ -10,6 +9,25 @@ function musica(){
         audio.play()
     }
 }
+		// CONTENEDOR DE AUDIO FLOTANTE CON BARRA DE TIEMPO
+
+// function mostrarAudio(){
+//   var controles= document.querySelector('#audioPlayer')
+//   controles.style='display:flex'
+// }
+
+// function tiempoaudio(time){    
+//   var mins = Math.floor(time / 60);
+//     if (mins < 10) {
+//     mins = '0' + String(mins);
+//     }
+//     var secs = Math.floor(time % 60);
+//     if (secs < 10) {
+//     secs = '0' + String(secs);
+//     }
+  
+//   return mins + ':' + secs;
+// }
 
 var estandarte= document.querySelector('#estandarte')
 var linkedIn= document.querySelector('#linkedin')

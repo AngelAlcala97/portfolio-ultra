@@ -19,6 +19,17 @@ var buclePrincipal = {
 
 	},
 	actualizar(registroTemporal) {
+		// CONTENEDOR DE AUDIO FLOTANTE CON BARRA DE TIEMPO
+
+		// document.getElementById('contenedorTiempo').style.width+= (audio.duration) +'px'
+		// document.getElementById('currentTime').style.width= Math.floor(audio.currentTime)+'px'
+		// console.log(audio.currentTime+'%')
+		// document.getElementById('currentTimeDiv').innerHTML= tiempoaudio(audio.currentTime)
+
+		if(audio.ended){
+			player.src='img/play.webp'
+		}
+
 		var currentdate = new Date();
 		if (currentdate.getDate()<10 && (currentdate.getMonth()+1)<10 ){
 			var datetime = "0" + currentdate.getDate() + "/0" + (currentdate.getMonth()+1) + "/" + currentdate.getFullYear() + " - " + currentdate.getHours() + ":" + currentdate.getMinutes() + ":" + currentdate.getSeconds();
@@ -30,9 +41,6 @@ var buclePrincipal = {
 			var datetime = currentdate.getDate() + "/" + (currentdate.getMonth()+1) + "/" + currentdate.getFullYear() + " - " + currentdate.getHours() + ":" + currentdate.getMinutes() + ":" + currentdate.getSeconds();
 		}
 	    document.getElementById('time').innerHTML= datetime
-		if(audio.ended){
-			player.src='img/play.webp'
-		}
 		buclePrincipal.aps++;
 	},
 	dibujar(registroTemporal) {

@@ -596,7 +596,7 @@ font-weight: bold;
   #sol{
     width: 60%;
     /* filter: drop-shadow(.1vh .1vh 0.7vh #feab06 ); */
-    animation: orbit 100s linear infinite;
+    /* animation: orbit 100s linear infinite; */
   }
   .planet{
     display: flex;
