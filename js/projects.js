@@ -1,15 +1,22 @@
-const requestURL = "projects.json";
-const request = new XMLHttpRequest();
-request.open("GET", requestURL);
-request.responseType = "json";
-request.send();
+// const { response } = require("express");
 
-request.onload = function () {
-   const projects = request.response;
-//    console.log (projects)
-   mostrarProyectos(projects)
- };
+// const requestURL = "projects.json";
+// const request = new XMLHttpRequest();
+// request.open("GET", requestURL);
+// request.responseType = "json";
+// request.send();
 
+// request.onload = function () {
+//    const projects = request.response;
+// //    console.log (projects)
+//    mostrarProyectos(projects)
+//  };
+
+ fetch('projects.json')
+ .then(response=> response.json())
+ .then (data=> {
+    mostrarProyectos(data)
+ })
 
 
  function mostrarProyectos(ANGEL) {
