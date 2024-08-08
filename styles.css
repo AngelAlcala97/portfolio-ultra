@@ -43,6 +43,8 @@
     background-repeat: repeat-x;
     background-size: cover;
     animation: animation2 100s linear infinite;
+    /* z-index: 16; */
+    transform: rotateX(180deg);
   }
 
 
@@ -588,9 +590,6 @@
   }
   #sol{
     width: 60%;
-    /* filter: drop-shadow(.1vh .1vh 1vh #feab06 ); */
-    /* animation: orbit 100s linear infinite; */
-
   }
   .planet{
     display: flex;
@@ -865,6 +864,7 @@ footer{
   background-repeat: repeat-x;
   background-size: contain;
 }
+
 footer #player{
   cursor: pointer;
   z-index: 9999999;
