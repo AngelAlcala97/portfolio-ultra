@@ -875,6 +875,27 @@ footer #player{
   right: 1vw;
   bottom: 2vh;
 }
+.paisaje{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  width: 750px;
+  height: 600px;
+}
+.paisaje2{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 15;
+}
+.paisaje3{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  width: 20%;
+}
 
 #mar{
   background: url(img/mar3.webp);

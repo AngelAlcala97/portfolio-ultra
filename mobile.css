@@ -870,6 +870,30 @@ footer #player{
   right: 7.5vw;
   bottom: 11vh;
 }
+.paisaje{
+  position: absolute;
+  display: none;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  width: 750px;
+  height: 600px;
+}
+.paisaje2{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 15;
+}
+.paisaje3{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  width: 20%;
+}
 
 
 #mar{
