@@ -888,6 +888,7 @@ footer #player{
   bottom: 0;
   right: 0;
   z-index: 15;
+  width: 500px;
 }
 .paisaje3{
   position: absolute;
