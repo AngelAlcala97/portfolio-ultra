@@ -779,7 +779,7 @@ color: var(--letra);
   height: 24px;
   top: -5px;
   left: -5px;
-  background: url(img/esquinita.svg);
+  background: url(img/projects/esquinita.svg);
   background-size: contain;
 }
 .cardImage::after{
@@ -789,7 +789,7 @@ color: var(--letra);
   height: 24px;
   bottom:-5px;
   right: -5px;
-  background: url(img/esquinita.svg);
+  background: url(img/projects/esquinita.svg);
   background-size: contain;
   transform: rotateZ(180deg);
 }

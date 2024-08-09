@@ -30,11 +30,11 @@
                     <a target="_blank" href="${ANGEL.projects[i].enlace}">
                     <div class="cardImage" style="background-image: url(${ANGEL.projects[i].imageURL});">
                         <div class="slider">
-                            <img src="img/estrellas-slider1.webp">
-                            <img src="img/estrellas-slider1.webp">
-                            <img src="img/estrellas-slider1.webp">
-                            <img src="img/estrellas-slider1.webp">
-                            <img src="img/estrellas-slider1.webp">
+                            <img src="img/projects/estrellas-slider1.webp">
+                            <img src="img/projects/estrellas-slider1.webp">
+                            <img src="img/projects/estrellas-slider1.webp">
+                            <img src="img/projects/estrellas-slider1.webp">
+                            <img src="img/projects/estrellas-slider1.webp">
                         </div>
                     </div>
                     <div class="cardText">
