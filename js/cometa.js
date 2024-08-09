@@ -13,7 +13,7 @@ class CreaCometas{
         this.tiempoAnimacion=tiempoAnimacion
     }
     generarCometa(){
-        document.querySelector('.header .cometas').innerHTML+='<img id="'+this.nombre+'"src="img/animados/cometa'+this.imagen+'.webp">'
+        document.querySelector('.header .cometas').innerHTML+='<img alt="comet" id="'+this.nombre+'"src="img/animados/cometa'+this.imagen+'.webp">'
         document.getElementById(this.nombre).style.position= 'absolute'
         document.getElementById(this.nombre).style.width= '5vw'
         document.getElementById(this.nombre).style.left= this.posx + 'vw'
