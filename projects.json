@@ -3,133 +3,133 @@
         {
             "name": "Animaciones CSS",
             "description": "Work of initiation to animations through css. It consists of an element that travels to the point you want, and returns. In this case they are coins",
-            "imageURL": "img/projects/22.jpg",
+            "imageURL": "img/projects/22.avif",
             "enlace": "projects/22Animacion-CSS/index.html"
         },
         {
             "name": "Desactivar Escudos",
             "description": "Mini-game to deactivate shields, with the game of the hangman, visually like a classic space invaders.",
-            "imageURL": "img/projects/21.jpg",
+            "imageURL": "img/projects/21.avif",
             "enlace": "projects/21Desactivar-escudos/inicio.html"
         },
         {
             "name": "Weekend Website",
             "description": "Web design for a music festival. Practice for aesthetics, and web interface design.",
-            "imageURL": "img/projects/20.jpg",
+            "imageURL": "img/projects/20.avif",
             "enlace": "projects/20WEEKEND-BEACH/index.html"
         },
         {
             "name": "Animaciones JS",
             "description": "Work of initiation to animations through javascript.",
-            "imageURL": "img/projects/19.jpg",
+            "imageURL": "img/projects/19.avif",
             "enlace": "projects/19Animaciones-JS/13-animaciones.html"
         },
         {
             "name": "Investigación CSS",
             "description": "CSS research paper, on the use of nth-child. How is it used, what does it affect...",
-            "imageURL": "img/projects/18.jpg",
+            "imageURL": "img/projects/18.avif",
             "enlace": "projects/18Investigación/index.html"
         },
         {
             "name": "Alumnos con Vector",
             "description": "CRUD design, student table design, data modification, cell deletion, etc.",
-            "imageURL": "img/projects/17.jpg",
+            "imageURL": "img/projects/17.avif",
             "enlace": "projects/17Alumnos-con-vector/index.html"
         },
         {
             "name": "Viaje del heroe V2",
             "description": "Introduction to matrices, dynamic grid and character generation, and movement through keyboard events.",
-            "imageURL": "img/projects/16.jpg",
+            "imageURL": "img/projects/16.avif",
             "enlace": "projects/16El-viaje-del-heroe-V2/index.html"
         },
         {
             "name": "Ajedrez V2",
             "description": "Second attempt at animated chess. Displays the board that the user enters, if it is 8x8 the figures appear.",
-            "imageURL": "img/projects/15.jpg",
+            "imageURL": "img/projects/15.avif",
             "enlace": "projects/15Tablero-animado/index.html"
         },
         {
             "name": "Congreso",
             "description": "Web design for the Artificial Intelligence conference. Practice for design, layout and aesthetics.",
-            "imageURL": "img/projects/14.jpg",
+            "imageURL": "img/projects/14.avif",
             "enlace": "projects/14Congreso/index.html"
         },
         {
             "name": "Tragaperras",
             "description": "Mini slot game, where you have credits, and you can win or lose everything.",
-            "imageURL": "img/projects/13.jpg",
+            "imageURL": "img/projects/13.avif",
             "enlace": "projects/13Tragaperras/index.html"
         },
         {
             "name": "Ajedrez V1",
             "description": "First attempt to generate a chessboard dynamically, independently of the squares entered by the user.",
-            "imageURL": "img/projects/12.jpg",
+            "imageURL": "img/projects/12.avif",
             "enlace": "projects/12Ajedrez/index.html"
         },
         {
             "name": "Adivina la secuencia",
             "description": "Mini-game of guessing the correct color sequence, like Simon Says, if you win, the difficulty increases.",
-            "imageURL": "img/projects/11.jpg",
+            "imageURL": "img/projects/11.avif",
             "enlace": "projects/11Adivina-la-secuencia/index.html"
         },
         {
             "name": "Evento",
             "description": "Simple programming event website to improve css, aesthetics and interface design.",
-            "imageURL": "img/projects/10.jpg",
+            "imageURL": "img/projects/10.avif",
             "enlace": "projects/10Evento/index.html"
         },
         {
             "name": "Viaje del heroe V1",
             "description": "Work on dynamic character creation and movement by clicking on buttons on the screen. Attempt number 1",
-            "imageURL": "img/projects/9.jpg",
+            "imageURL": "img/projects/9.avif",
             "enlace": "projects/09Viaje-del-heroe/opcional.html"
         },
         {
             "name": "Lanzamiento de dados",
             "description": "Work of dice rolls, for calculation of rolls, averages, summations, dynamically in an interface.",
-            "imageURL": "img/projects/8.jpg",
+            "imageURL": "img/projects/8.avif",
             "enlace": "projects/08Lanzamiento-dados/index.html"
         },
         {
             "name": "Elige tu aventura",
             "description": "Graphic adventure work, following the scripts of choose your own adventure, by elections.",
-            "imageURL": "img/projects/7.jpg",
+            "imageURL": "img/projects/7.avif",
             "enlace": "projects/07Aventura/index.html"
         },
         {
             "name": "Caja fuerte",
             "description": "Mini-game job open the safe, the user has 3 attempts to open the safe by entering a 3-digit pin number.",
-            "imageURL": "img/projects/6.jpg",
+            "imageURL": "img/projects/6.avif",
             "enlace": "projects/06Caja-fuerte/index.html"
         },
         {
             "name": "Calculadora Habilidad",
             "description": "Initiation work on variables and dynamical elements generated on the basis of data entered by the user.",
-            "imageURL": "img/projects/5.jpg",
+            "imageURL": "img/projects/5.avif",
             "enlace": "projects/05Calculadora-de-habilidad/opcional.html"
         },
         {
             "name": "Zodiaco",
             "description": "Zodiac sign work, personalized answers according to your day of birth",
-            "imageURL": "img/projects/4.jpg",
+            "imageURL": "img/projects/4.avif",
             "enlace": "projects/04Zodiaco/index.html"
         },
         {
             "name": "Mapa sensible",
             "description": "Sensitive image map work, by means of imagemap and figures with concrete coordinates on which to perform mouse events.",
-            "imageURL": "img/projects/3.jpg",
+            "imageURL": "img/projects/3.avif",
             "enlace": "projects/03Mapeado/index.html"
         },
         {
             "name": "Areas",
             "description": "Introductory work to Javascript, area calculator of different figures. Automated by entering values.",
-            "imageURL": "img/projects/2.jpg",
+            "imageURL": "img/projects/2.avif",
             "enlace": "projects/02Area-figuras/Opcional.html"
         },
         {
             "name": "Enlaces",
             "description": "Introductory work in HTML. Learning links and anchor in functional web, with access to the pages to each other. And several anchor links in the subpages themselves.",
-            "imageURL": "img/projects/1.jpg",
+            "imageURL": "img/projects/1.avif",
             "enlace": "projects/01Enlaces/Boostrap-ver/1-Inicio.html"
         }
     ]
