@@ -31,15 +31,16 @@ var buclePrincipal = {
 		}
 
 		var currentdate = new Date();
-		if (currentdate.getDate()<10 && (currentdate.getMonth()+1)<10 ){
-			var datetime = "0" + currentdate.getDate() + "/0" + (currentdate.getMonth()+1) + "/" + currentdate.getFullYear() + " - " + currentdate.getHours() + ":" + currentdate.getMinutes() + ":" + currentdate.getSeconds();
-		} else if (currentdate.getDate()>=10 && (currentdate.getMonth()+1)<10 ){
-			var datetime = currentdate.getDate() + "/0" + (currentdate.getMonth()+1) + "/" + currentdate.getFullYear() + " - " + currentdate.getHours() + ":" + currentdate.getMinutes() + ":" + currentdate.getSeconds();
-		}  else if (currentdate.getDate()<10 && (currentdate.getMonth()+1)>=10 ){
-			var datetime = currentdate.getDate() + "/0" + (currentdate.getMonth()+1) + "/" + currentdate.getFullYear() + " - " + currentdate.getHours() + ":" + currentdate.getMinutes() + ":" + currentdate.getSeconds();
-		} else{
-			var datetime = currentdate.getDate() + "/" + (currentdate.getMonth()+1) + "/" + currentdate.getFullYear() + " - " + currentdate.getHours() + ":" + currentdate.getMinutes() + ":" + currentdate.getSeconds();
+		function formatNumber(number) {
+    		return number < 10 ? '0' + number : number;
 		}
+		var dia = formatNumber(currentdate.getDate());
+		var mes = formatNumber(currentdate.getMonth() + 1); // getMonth() es 0-based
+		var anio = currentdate.getFullYear();
+		var horas = formatNumber(currentdate.getHours());
+		var minutos = formatNumber(currentdate.getMinutes());
+		var segundos = formatNumber(currentdate.getSeconds());
+		var datetime = `${dia}/${mes}/${anio} - ${horas}:${minutos}:${segundos}`;
 	    document.getElementById('time').innerHTML= datetime
 		buclePrincipal.aps++;
 	},
