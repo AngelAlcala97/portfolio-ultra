@@ -20,6 +20,11 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
   }
+
+  ::selection {
+    background-color: #48453E; /* Color de fondo personalizado */
+    color: #fff; /* Color del texto seleccionado */
+}
   .nubes{
     overflow: hidden;
     height: 100%;
