@@ -1,6 +1,6 @@
 
 function fuera(){
-    document.getElementById('imagen').src='Img/1.png';
+    document.getElementById('imagen').src='img/1.png';
     
 }
 
